@@ -1,0 +1,419 @@
+{
+  "env": "/Users/coco/project/support/performance-node/config/config.default.js",
+  "name": "/Users/coco/project/support/performance-node/config/config.default.js",
+  "keys": "/Users/coco/project/support/performance-node/config/config.default.js",
+  "debug": "/Users/coco/project/support/performance-node/config/config.default.js",
+  "logger": {
+    "outputJSON": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "level": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "consoleLevel": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "dir": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "env": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "disableConsoleAfterReady": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "buffer": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "appLogName": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "coreLogName": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "agentLogName": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "errorLogName": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "coreLogger": {
+      "consoleLevel": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.local.js"
+    },
+    "allowDebugAtProd": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "sequelize": {
+    "host": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "port": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "user": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "password": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "database": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "dialect": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "operatorsAliases": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "timezone": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "pool": {
+      "max": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "min": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "acquire": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "idle": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "connectionLimit": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "dateStrings": "/Users/coco/project/support/performance-node/config/config.default.js"
+    },
+    "username": "/Users/coco/project/support/performance-node/node_modules/egg-sequelize/config/config.default.js"
+  },
+  "middleware": "/Users/coco/project/support/performance-node/config/config.default.js",
+  "bodyParser": {
+    "enableTypes": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "formLimit": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "jsonLimit": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "enable": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "encoding": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "strict": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "queryString": {
+      "arrayLimit": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "depth": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "parameterLimit": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "onerror": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "joi": {
+    "options": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "locale": {
+      "zh-cn": "/Users/coco/project/support/performance-node/config/config.default.js"
+    },
+    "throw": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "throwHandle": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "errorHandle": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "resultHandle": "/Users/coco/project/support/performance-node/config/config.default.js"
+  },
+  "security": {
+    "csrf": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "domainWhiteList": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+    "protocolWhiteList": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+    "defaultMiddleware": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+    "xframe": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "hsts": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.local.js",
+      "maxAge": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+      "includeSubdomains": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "dta": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "methodnoallow": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "noopen": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "nosniff": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "referrerPolicy": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "xssProtection": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+      "value": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "csp": {
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+      "policy": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    },
+    "ssrf": {
+      "ipBlackList": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js",
+      "checkAddress": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+    }
+  },
+  "thirdUrl": {
+    "host": "/Users/coco/project/support/performance-node/config/config.default.js"
+  },
+  "view": {
+    "root": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "mapping": {
+      ".html": "/Users/coco/project/support/performance-node/config/config.default.js"
+    },
+    "cache": "/Users/coco/project/support/performance-node/node_modules/egg-view/config/config.local.js",
+    "defaultExtension": "/Users/coco/project/support/performance-node/node_modules/egg-view/config/config.default.js",
+    "defaultViewEngine": "/Users/coco/project/support/performance-node/node_modules/egg-view/config/config.default.js"
+  },
+  "assets": {
+    "publicPath": "/Users/coco/project/support/performance-node/config/config.default.js",
+    "devServer": {
+      "autoPort": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "command": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "env": {
+        "APP_ROOT": "/Users/coco/project/support/performance-node/config/config.default.js",
+        "BROWSER": "/Users/coco/project/support/performance-node/config/config.default.js",
+        "SOCKET_SERVER": "/Users/coco/project/support/performance-node/config/config.default.js"
+      },
+      "debug": "/Users/coco/project/support/performance-node/config/config.default.js",
+      "enable": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+      "port": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+      "portPath": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+      "timeout": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+      "waitStart": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js"
+    },
+    "isLocalOrUnittest": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+    "url": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+    "templatePath": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+    "templateViewEngine": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+    "crossorigin": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js",
+    "contextKey": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/config.default.js"
+  },
+  "dev": {
+    "enable": "/Users/coco/project/support/performance-node/config/config.local.js",
+    "package": "/Users/coco/project/support/performance-node/config/config.local.js"
+  },
+  "session": {
+    "maxAge": "/Users/coco/project/support/performance-node/node_modules/egg-session/config/config.default.js",
+    "key": "/Users/coco/project/support/performance-node/node_modules/egg-session/config/config.default.js",
+    "httpOnly": "/Users/coco/project/support/performance-node/node_modules/egg-session/config/config.default.js",
+    "encrypt": "/Users/coco/project/support/performance-node/node_modules/egg-session/config/config.default.js"
+  },
+  "helper": {
+    "shtml": "/Users/coco/project/support/performance-node/node_modules/egg-security/config/config.default.js"
+  },
+  "jsonp": {
+    "limit": "/Users/coco/project/support/performance-node/node_modules/egg-jsonp/config/config.default.js",
+    "callback": "/Users/coco/project/support/performance-node/node_modules/egg-jsonp/config/config.default.js",
+    "csrf": "/Users/coco/project/support/performance-node/node_modules/egg-jsonp/config/config.default.js"
+  },
+  "onerror": {
+    "errorPageUrl": "/Users/coco/project/support/performance-node/node_modules/egg-onerror/config/config.default.js",
+    "appErrorFilter": "/Users/coco/project/support/performance-node/node_modules/egg-onerror/config/config.default.js",
+    "templatePath": "/Users/coco/project/support/performance-node/node_modules/egg-onerror/config/config.default.js"
+  },
+  "i18n": {
+    "defaultLocale": "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/config.default.js",
+    "dirs": "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/config.default.js",
+    "queryField": "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieField": "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieDomain": "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/config.default.js",
+    "cookieMaxAge": "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/config.default.js"
+  },
+  "watcher": {
+    "type": "/Users/coco/project/support/performance-node/node_modules/egg-watcher/config/config.local.js",
+    "eventSources": {
+      "default": "/Users/coco/project/support/performance-node/node_modules/egg-watcher/config/config.default.js",
+      "development": "/Users/coco/project/support/performance-node/node_modules/egg-watcher/config/config.default.js"
+    }
+  },
+  "customLogger": {
+    "scheduleLogger": {
+      "consoleLevel": "/Users/coco/project/support/performance-node/node_modules/egg-schedule/config/config.default.js",
+      "file": "/Users/coco/project/support/performance-node/node_modules/egg-schedule/config/config.default.js"
+    }
+  },
+  "schedule": {
+    "directory": "/Users/coco/project/support/performance-node/node_modules/egg-schedule/config/config.default.js"
+  },
+  "multipart": {
+    "mode": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "autoFields": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "defaultCharset": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "fieldNameSize": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "fieldSize": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "fields": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "fileSize": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "files": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "fileExtensions": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "whitelist": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "tmpdir": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js",
+    "cleanSchedule": {
+      "cron": "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/config.default.js"
+    }
+  },
+  "development": {
+    "watchDirs": "/Users/coco/project/support/performance-node/node_modules/egg-development/config/config.default.js",
+    "ignoreDirs": "/Users/coco/project/support/performance-node/node_modules/egg-development/config/config.default.js",
+    "fastReady": "/Users/coco/project/support/performance-node/node_modules/egg-development/config/config.default.js",
+    "reloadOnDebug": "/Users/coco/project/support/performance-node/node_modules/egg-development/config/config.default.js",
+    "overrideDefault": "/Users/coco/project/support/performance-node/node_modules/egg-development/config/config.default.js"
+  },
+  "logrotator": {
+    "filesRotateByHour": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js",
+    "hourDelimiter": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js",
+    "filesRotateBySize": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxFileSize": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxFiles": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js",
+    "rotateDuration": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js",
+    "maxDays": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/config.default.js"
+  },
+  "static": {
+    "prefix": "/Users/coco/project/support/performance-node/node_modules/egg-static/config/config.default.js",
+    "dir": "/Users/coco/project/support/performance-node/node_modules/egg-static/config/config.default.js",
+    "dynamic": "/Users/coco/project/support/performance-node/node_modules/egg-static/config/config.default.js",
+    "preload": "/Users/coco/project/support/performance-node/node_modules/egg-static/config/config.default.js",
+    "buffer": "/Users/coco/project/support/performance-node/node_modules/egg-static/config/config.default.js",
+    "maxFiles": "/Users/coco/project/support/performance-node/node_modules/egg-static/config/config.default.js"
+  },
+  "nunjucks": {
+    "autoescape": "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "throwOnUndefined": "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "trimBlocks": "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "lstripBlocks": "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks/config/config.default.js",
+    "cache": "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks/config/config.local.js"
+  },
+  "proxy": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "maxProxyCount": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "protocolHeaders": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "ipHeaders": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "hostHeaders": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "pkg": {
+    "name": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "version": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "description": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "main": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "scripts": {
+      "start": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "stop": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "dev": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "debug": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "build": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "test": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "test-local": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "cov": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "lint": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "ci": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "autod": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "sync": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "engines": {
+      "node": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "ci": {
+      "version": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "license": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "author": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "license": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "dependencies": {
+      "async": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "axios": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-alinode": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-joi": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-logger": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-logrotator": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-redis": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-sequelize": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-view-static": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-static": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "hmacsha1": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "ioredis": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "joi": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "lodash": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "midway": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "moment": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "mqtt": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "mysql2": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "sequelize-mysql-timestamp": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "urllib": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "uuid": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "@antv/data-set": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "@babel/runtime": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "antd": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "bizcharts": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "bizcharts-plugin-slider": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "classnames": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "dva": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-scripts": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-view-nunjucks": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "enquire-js": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "hash.js": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "lodash-decorators": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "memoize-one": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "numeral": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "nzh": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "omit.js": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "path-to-regexp": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "prop-types": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "qs": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "rc-animate": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-container-query": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-copy-to-clipboard": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-document-title": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-dom": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-fittext": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-router-dom": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "react-media": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "umi-request": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-view-assets": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "cross-env": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "devDependencies": {
+      "egg-bin": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-mock": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-config-airbnb-base": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-plugin-import": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "sequelize-cli": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "antd-pro-merge-less": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "antd-theme-webpack-plugin": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "autod": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "autod-egg": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "babel-eslint": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "babel-plugin-dva-hmr": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "babel-plugin-import": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "babel-plugin-transform-decorators-legacy": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "egg-ci": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "enzyme": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-config-airbnb": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-config-egg": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-config-prettier": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-plugin-babel": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-plugin-compat": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-plugin-jsx-a11y": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-plugin-markdown": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "eslint-plugin-react": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "mockjs": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "redbox-react": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "umi": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "umi-plugin-ga": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "umi-plugin-react": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "baseDir": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "HOME": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "rundir": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "dump": {
+    "ignore": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "confusedConfigurations": {
+    "bodyparser": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "notFound": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "sitefile": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "middlewares": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "httpClient": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "notfound": {
+    "pageUrl": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "siteFile": {
+    "/favicon.ico": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "httpclient": {
+    "enableDNSCache": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "dnsCacheLookupInterval": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "dnsCacheMaxLength": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "request": {
+      "timeout": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "httpAgent": {
+      "keepAlive": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    },
+    "httpsAgent": {
+      "keepAlive": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "freeSocketTimeout": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "maxSockets": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "maxFreeSockets": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "meta": {
+    "enable": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "logging": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "coreMiddleware": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "workerStartTimeout": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "serverTimeout": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+  "cluster": {
+    "listen": {
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "port": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+      "hostname": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+    }
+  },
+  "clusterClient": {
+    "maxWaitTime": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js",
+    "responseTimeout": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+  },
+  "onClientError": "/Users/coco/project/support/performance-node/node_modules/egg/config/config.default.js"
+}

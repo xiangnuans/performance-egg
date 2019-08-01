@@ -1,0 +1,690 @@
+2019-07-30 10:23:31,400 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/pk/userlist.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:11,580 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/view.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:14,167 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/view.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:18,612 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/view.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:23,231 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/view.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:25,250 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/view.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:41,562 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/view.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:45,217 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/pk/cardlist.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 10:24:46,882 ERROR 18170 nodejs.AssertionError [ERR_ASSERTION]: Can't find viewEngine for /Users/coco/project/support/performance-node/app/public/pk/cardlist.html
+    at ContextView.[contextView#render] (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/context_view.js:66:5)
+generatedMessage: false
+name: "AssertionError [ERR_ASSERTION]"
+code: "ERR_ASSERTION"
+actual: ""
+expected: true
+operator: "=="
+pid: 18170
+hostname: cocodeiMac.local
+
+2019-07-30 15:56:09,793 ERROR 26863 [-/::1/-/6ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-30 16:02:21,592 ERROR 27128 nodejs.Error: [egg-view-assets] Run "umi dev --port=10000" exit with code 1
+    at DevServer.exit (/Users/coco/project/support/performance-node/node_modules/egg-view-assets/lib/dev_server.js:124:21)
+    at ChildProcess.proc.once.code (/Users/coco/project/support/performance-node/node_modules/egg-view-assets/lib/dev_server.js:64:36)
+    at Object.onceWrapper (events.js:273:13)
+    at ChildProcess.emit (events.js:182:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)
+
+pid: 27128
+hostname: cocodeiMac.local
+
+2019-07-30 16:03:19,008 ERROR 27128 [egg-view-assets] Run "umi dev --port=10000" failed after 60s
+2019-07-31 09:54:57,947 ERROR 45223 [egg-view-assets] Run "cross-env MOCK=none umi dev --port={8001}" failed after 60s
+2019-07-31 13:21:12,272 ERROR 50900 nodejs.Error: [egg-view-assets] Run "umi dev --port=10000" exit with code 1
+    at DevServer.exit (/Users/coco/project/support/performance-node/node_modules/egg-view-assets/lib/dev_server.js:124:21)
+    at ChildProcess.proc.once.code (/Users/coco/project/support/performance-node/node_modules/egg-view-assets/lib/dev_server.js:64:36)
+    at Object.onceWrapper (events.js:273:13)
+    at ChildProcess.emit (events.js:182:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)
+
+pid: 50900
+hostname: cocodeiMac.local
+
+2019-07-31 13:21:36,884 ERROR 50938 nodejs.Error: [egg-view-assets] Run "umi dev --port=10000" exit with code 1
+    at DevServer.exit (/Users/coco/project/support/performance-node/node_modules/egg-view-assets/lib/dev_server.js:124:21)
+    at ChildProcess.proc.once.code (/Users/coco/project/support/performance-node/node_modules/egg-view-assets/lib/dev_server.js:64:36)
+    at Object.onceWrapper (events.js:273:13)
+    at ChildProcess.emit (events.js:182:13)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:240:12)
+
+pid: 50938
+hostname: cocodeiMac.local
+
+2019-07-31 16:28:52,393 ERROR 1217 [-/127.0.0.1/-/5454ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [service.third]: 获取成员销售额失败 {"name":"ResponseTimeoutError","requestId":1,"path":"/hourlyGMV/selectUserSaleEveryDayOrMonth","status":-1,"headers":{},"res":{"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5445,"keepAliveSocket":false,"requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectUserSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":0}}
+2019-07-31 16:28:52,394 ERROR 1217 [-/127.0.0.1/-/5455ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [schedule.pk]: 定时间计算用户的指标失败 Error: 调用第三方接口失败
+    at ThirdService.getUserSales (/Users/coco/project/support/performance-node/app/service/third.js:84:13)
+2019-07-31 16:28:52,395 ERROR 1217 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Error: 调用第三方接口失败
+    at PK.subscribe (/Users/coco/project/support/performance-node/app/schedule/pk.js:96:13)
+
+pid: 1217
+hostname: cocodeiMac.local
+
+2019-07-31 16:35:45,885 ERROR 1461 [egg-view-assets] port 8001 has been used
+2019-07-31 17:05:36,633 ERROR 2712 [-/::1/-/6ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:06:35,922 ERROR 2755 [-/::1/-/6ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:10:10,606 ERROR 2904 [-/::1/-/8ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:29:30,472 ERROR 4156 [-/127.0.0.1/-/6ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:30:56,657 ERROR 4243 [-/127.0.0.1/-/6ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:31:00,721 ERROR 4243 [-/127.0.0.1/-/0ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:31:01,607 ERROR 4243 [-/127.0.0.1/-/0ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-07-31 17:32:35,362 ERROR 4270 [-/127.0.0.1/-/10ms GET /] [server error]: method = "GET", originalUrl = "/"
+    status=404, reqParam= undefined { AssertionError [ERR_ASSERTION]: Can't find index.html from 
+    at Map.resolve (/Users/coco/project/support/performance-node/node_modules/egg-view/lib/view_manager.js:74:5)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  generatedMessage: false,
+  name: 'AssertionError [ERR_ASSERTION]',
+  code: 'ERR_ASSERTION',
+  actual: undefined,
+  expected: true,
+  operator: '==' }
+2019-08-01 10:03:15,308 ERROR 17329 [-/127.0.0.1/-/3ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:03:15,310 ERROR 17329 [-/127.0.0.1/-/5ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 17329
+hostname: cocodeiMac.local
+
+2019-08-01 10:03:15,311 ERROR 17329 catch sys with err {}
+2019-08-01 10:06:03,262 ERROR 17492 [-/127.0.0.1/-/3ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:06:03,264 ERROR 17492 [-/127.0.0.1/-/4ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:36:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 17492
+hostname: cocodeiMac.local
+
+2019-08-01 10:06:03,265 ERROR 17492 catch sys with err {}
+2019-08-01 10:09:26,028 ERROR 17587 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 17587
+hostname: cocodeiMac.local
+
+2019-08-01 10:09:57,394 ERROR 17633 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 17633
+hostname: cocodeiMac.local
+
+2019-08-01 10:11:51,061 ERROR 17709 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 17709
+hostname: cocodeiMac.local
+
+2019-08-01 10:12:24,223 ERROR 17753 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 17753
+hostname: cocodeiMac.local
+
+2019-08-01 10:12:55,746 ERROR 17797 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 17797
+hostname: cocodeiMac.local
+
+2019-08-01 10:23:49,444 ERROR 18066 [-/127.0.0.1/-/3ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {}
+2019-08-01 10:23:49,445 ERROR 18066 [-/127.0.0.1/-/3ms POST /api/updateUser] nodejs.Error: ReferenceError: ct is not defined
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18066
+hostname: cocodeiMac.local
+
+2019-08-01 10:23:49,445 ERROR 18066 catch sys with err {}
+2019-08-01 10:24:16,857 ERROR 18130 [-/127.0.0.1/-/5ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:24:16,858 ERROR 18130 [-/127.0.0.1/-/6ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18130
+hostname: cocodeiMac.local
+
+2019-08-01 10:24:16,859 ERROR 18130 catch sys with err {}
+2019-08-01 10:27:06,537 ERROR 18198 [-/127.0.0.1/-/4ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:27:06,539 ERROR 18198 [-/127.0.0.1/-/5ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18198
+hostname: cocodeiMac.local
+
+2019-08-01 10:27:06,539 ERROR 18198 catch sys with err {}
+2019-08-01 10:28:26,644 ERROR 18259 [-/127.0.0.1/-/5ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:28:26,646 ERROR 18259 [-/127.0.0.1/-/6ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18259
+hostname: cocodeiMac.local
+
+2019-08-01 10:28:26,647 ERROR 18259 catch sys with err {}
+2019-08-01 10:29:26,531 ERROR 18324 [-/127.0.0.1/-/4ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:29:26,532 ERROR 18324 [-/127.0.0.1/-/5ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18324
+hostname: cocodeiMac.local
+
+2019-08-01 10:29:26,533 ERROR 18324 catch sys with err {}
+2019-08-01 10:29:50,733 ERROR 18369 [-/127.0.0.1/-/5ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:29:50,734 ERROR 18369 [-/127.0.0.1/-/5ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18369
+hostname: cocodeiMac.local
+
+2019-08-01 10:29:50,734 ERROR 18369 catch sys with err {}
+2019-08-01 10:30:46,440 ERROR 18422 [-/127.0.0.1/-/4ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:30:46,441 ERROR 18422 [-/127.0.0.1/-/5ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18422
+hostname: cocodeiMac.local
+
+2019-08-01 10:30:46,442 ERROR 18422 catch sys with err {}
+2019-08-01 10:34:29,834 ERROR 18822 [-/127.0.0.1/-/3ms POST /api/updateUser] [controller.user]: 更新用户列表失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"status\" is required","path":["status"],"type":"any.required","context":{"key":"status","label":"status"}}],"_object":{"userId":10175},"expose":true,"statusCode":422,"status":422}
+2019-08-01 10:34:29,836 ERROR 18822 [-/127.0.0.1/-/4ms POST /api/updateUser] nodejs.Error: ValidationError: child "status" fails because ["status" is required]
+    at UserController.updateUser (/Users/coco/project/support/performance-node/app/controller/user.js:37:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:52:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:42:32)
+    at xframe (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/xframe.js:7:11)
+
+pid: 18822
+hostname: cocodeiMac.local
+
+2019-08-01 10:34:29,837 ERROR 18822 catch sys with err {}

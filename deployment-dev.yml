@@ -1,0 +1,70 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: {{APP_NAME}}-svc
+  namespace: {{NAMESPACE}}
+spec:
+  type: ClusterIP
+  ports:
+  - port: 80
+    protocol: TCP
+    targetPort: 7001
+  selector:
+    app: {{APP_NAME}}
+---
+apiVersion: extensions/v1beta1
+kind: Deployment
+metadata:
+  name: {{APP_NAME}}
+  namespace: {{NAMESPACE}}
+spec:
+  replicas: 2
+  progressDeadlineSeconds: 600
+  revisionHistoryLimit: 10
+  template:
+    metadata:
+      labels:
+        app: {{APP_NAME}}
+    spec:
+      imagePullSecrets:
+        - name: coco-registry
+      containers:
+        - name: {{APP_NAME}}
+          image: registry.cn-hangzhou.aliyuncs.com/coco/{{APP_NAME}}:{{CI_COMMIT_SHA}}
+          envFrom:
+            - configMapRef:
+                name: {{APP_NAME}}
+          volumeMounts:
+            - name: log
+              mountPath: /usr/local/app/logs
+          env:
+            - name: CI_COMMIT_SHA
+              value: "{{CI_COMMIT_SHA}}"
+          imagePullPolicy: "Always"
+          livenessProbe:
+            failureThreshold: 5
+            initialDelaySeconds: 15
+            periodSeconds: 3
+            successThreshold: 1
+            tcpSocket:
+              port: 7001
+            timeoutSeconds: 1
+          ports:
+          - containerPort: 7001
+            protocol: TCP
+          readinessProbe:
+            failureThreshold: 3
+            initialDelaySeconds: 20
+            periodSeconds: 3
+            successThreshold: 1
+            tcpSocket:
+              port: 7001
+            timeoutSeconds: 1
+      volumes:
+        - name: log
+          emptyDir: {}
+      dnsPolicy: ClusterFirst
+      restartPolicy: Always
+      schedulerName: default-scheduler
+      securityContext: {}
+      terminationGracePeriodSeconds: 30

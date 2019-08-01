@@ -1,0 +1,167 @@
+2019-07-26 16:27:57,103 ERROR 37709 [-/127.0.0.1/-/79ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [service.third]: 获取成员销售额失败 {"name":"JSONResponseFormatError","data":"<html><head><title>Apache Tomcat/7.0.59.346 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size=\"1\" noshade=\"noshade\"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size=\"1\" noshade=\"noshade\"><h3>Apache Tomcat/7.0.59.346</h3></body></html>","path":"/hourlyGMV/selectUserSaleEveryDayOrMonth","status":404,"headers":{"server":"nginx/1.4.7","date":"Fri, 26 Jul 2019 08:27:57 GMT","content-type":"text/html;charset=utf-8","content-length":"957","connection":"keep-alive","access-control-allow-credentials":"true","access-control-allow-headers":"Origin, X-Requested-With, Last-Modified, Content-Type, Accept","access-control-allow-methods":"GET, OPTIONS, POST","content-language":"en"},"res":{"status":404,"statusCode":404,"statusMessage":"Not Found","headers":{"server":"nginx/1.4.7","date":"Fri, 26 Jul 2019 08:27:57 GMT","content-type":"text/html;charset=utf-8","content-length":"957","connection":"keep-alive","access-control-allow-credentials":"true","access-control-allow-headers":"Origin, X-Requested-With, Last-Modified, Content-Type, Accept","access-control-allow-methods":"GET, OPTIONS, POST","content-language":"en"},"size":957,"aborted":false,"rt":75,"keepAliveSocket":false,"data":"<html><head><title>Apache Tomcat/7.0.59.346 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size=\"1\" noshade=\"noshade\"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size=\"1\" noshade=\"noshade\"><h3>Apache Tomcat/7.0.59.346</h3></body></html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectUserSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-26 16:27:57,104 ERROR 37709 [-/127.0.0.1/-/80ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [schedule.pk]: 定时间计算用户的指标失败 Error: 调用第三方接口失败
+    at ThirdService.getUserSales (/Users/coco/project/support/performance-node/app/service/third.js:84:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-26 16:27:57,104 ERROR 37709 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Error: 调用第三方接口失败
+    at PK.subscribe (/Users/coco/project/support/performance-node/app/schedule/pk.js:96:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 37709
+hostname: cocodeiMac.local
+
+2019-07-26 16:40:07,546 ERROR 37924 [-/127.0.0.1/-/35ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [service.third]: 获取成员销售额失败 {"name":"JSONResponseFormatError","data":"<html><head><title>Apache Tomcat/7.0.59.346 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size=\"1\" noshade=\"noshade\"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size=\"1\" noshade=\"noshade\"><h3>Apache Tomcat/7.0.59.346</h3></body></html>","path":"/hourlyGMV/selectUserSaleEveryDayOrMonth","status":404,"headers":{"server":"nginx/1.4.7","date":"Fri, 26 Jul 2019 08:40:07 GMT","content-type":"text/html;charset=utf-8","content-length":"957","connection":"keep-alive","access-control-allow-credentials":"true","access-control-allow-headers":"Origin, X-Requested-With, Last-Modified, Content-Type, Accept","access-control-allow-methods":"GET, OPTIONS, POST","content-language":"en"},"res":{"status":404,"statusCode":404,"statusMessage":"Not Found","headers":{"server":"nginx/1.4.7","date":"Fri, 26 Jul 2019 08:40:07 GMT","content-type":"text/html;charset=utf-8","content-length":"957","connection":"keep-alive","access-control-allow-credentials":"true","access-control-allow-headers":"Origin, X-Requested-With, Last-Modified, Content-Type, Accept","access-control-allow-methods":"GET, OPTIONS, POST","content-language":"en"},"size":957,"aborted":false,"rt":31,"keepAliveSocket":false,"data":"<html><head><title>Apache Tomcat/7.0.59.346 - Error report</title><style><!--H1 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:22px;} H2 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:16px;} H3 {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;font-size:14px;} BODY {font-family:Tahoma,Arial,sans-serif;color:black;background-color:white;} B {font-family:Tahoma,Arial,sans-serif;color:white;background-color:#525D76;} P {font-family:Tahoma,Arial,sans-serif;background:white;color:black;font-size:12px;}A {color : black;}A.name {color : black;}HR {color : #525D76;}--></style> </head><body><h1>HTTP Status 404 - </h1><HR size=\"1\" noshade=\"noshade\"><p><b>type</b> Status report</p><p><b>message</b> <u></u></p><p><b>description</b> <u>The requested resource is not available.</u></p><HR size=\"1\" noshade=\"noshade\"><h3>Apache Tomcat/7.0.59.346</h3></body></html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectUserSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-26 16:40:07,547 ERROR 37924 [-/127.0.0.1/-/36ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [schedule.pk]: 定时间计算用户的指标失败 Error: 调用第三方接口失败
+    at ThirdService.getUserSales (/Users/coco/project/support/performance-node/app/service/third.js:84:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-26 16:40:07,548 ERROR 37924 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Error: 调用第三方接口失败
+    at PK.subscribe (/Users/coco/project/support/performance-node/app/schedule/pk.js:96:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+
+pid: 37924
+hostname: cocodeiMac.local
+
+2019-07-29 10:11:02,126 ERROR 98080 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 98080
+hostname: cocodeiMac.local
+
+2019-07-29 10:11:27,988 ERROR 98103 nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 98103
+hostname: cocodeiMac.local
+
+2019-07-29 10:25:26,350 ERROR 98480 [-/127.0.0.1/-/5010ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [service.third]: 获取成员销售额失败 {"name":"ConnectionTimeoutError","requestId":1,"path":"/hourlyGMV/selectUserSaleEveryDayOrMonth","status":-2,"headers":{},"res":{"status":-2,"statusCode":-2,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":5006,"keepAliveSocket":false,"requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectUserSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}}
+2019-07-29 10:25:26,351 ERROR 98480 [-/127.0.0.1/-/5010ms SCHEDULE /__schedule?path=/Users/coco/project/support/performance-node/app/schedule/pk.js&cron=59%2059%2023%20*%2F1%20*%20*&type=all] [schedule.pk]: 定时间计算用户的指标失败 Error: 调用第三方接口失败
+    at ThirdService.getUserSales (/Users/coco/project/support/performance-node/app/service/third.js:84:13)
+2019-07-29 10:25:26,351 ERROR 98480 [-/127.0.0.1/-/0ms GET /] nodejs.Error: Error: 调用第三方接口失败
+    at PK.subscribe (/Users/coco/project/support/performance-node/app/schedule/pk.js:96:13)
+
+pid: 98480
+hostname: cocodeiMac.local
+
+2019-07-29 10:27:28,446 ERROR 98550 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 98550
+hostname: cocodeiMac.local
+
+2019-07-29 10:36:51,450 ERROR 99136 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 99136
+hostname: cocodeiMac.local
+

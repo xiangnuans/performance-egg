@@ -1,0 +1,43 @@
+{
+  "development": {
+    "username": "root",
+    "password": "HPGQEhutFBUCi8ZE8JYgWDwZVhAHXWJx",
+    "database": "performance",
+    "host": "rm-bp171b759ha99x5wfso.mysql.rds.aliyuncs.com",
+    "dialect": "mysql",
+    "port": 3306,
+    "operatorsAliases": false,
+      "pool": {
+        "max": 10,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 1000,
+        "connectionLimit": 10,
+        "dateStrings": true
+      }
+  },
+  "test": {
+    "username": "root",
+    "password": "HPGQEhutFBUCi8ZE8JYgWDwZVhAHXWJx",
+    "database": "performance",
+    "host": "rm-bp171b759ha99x5wfso.mysql.rds.aliyuncs.com",
+    "dialect": "mysql",
+    "port": 3306,
+    "operatorsAliases": false,
+      "pool": {
+        "max": 10,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 1000,
+        "connectionLimit": 10,
+        "dateStrings": true
+      }
+  },
+  "production": {
+    "username": "root",
+    "password": null,
+    "database": "database_production",
+    "host": "127.0.0.1",
+    "dialect": "mysql"
+  }
+}

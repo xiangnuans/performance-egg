@@ -1,0 +1,14 @@
+FROM registry.cn-hangzhou.aliyuncs.com/aliyun-node/alinode:4.7.2-alpine
+
+RUN apk update && \
+  apk add tzdata && \
+  ln -sf /usr/share/zoneinfo/Asia/Shanghai /etc/localtime && \
+  echo "Asia/Shanghai" > /etc/timezone && \
+  rm -rf /var/cache/apk/* && rm -rf /tmp/*
+
+WORKDIR /root/
+
+COPY package.json yarn.lock .npmrc ./
+
+RUN yarn --frozen-lockfile --no-cache --production && \
+  rm -rf /tmp/* && rm -rf $HOME/.npm/_cacache && rm -f package.json package-lock.json

@@ -1,0 +1,241 @@
+2019-07-29 13:00:43,836 ERROR 2216 nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 2216
+hostname: cocodeiMac.local
+
+2019-07-29 14:54:54,452 ERROR 2258 [-/::1/-/11149ms GET /api/userList?] [service.user]:获取用户列表失败： { SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at Object.create (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+    at Pool._createResource (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:308:42)
+    at Pool._dispense (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:226:12)
+    at Pool.acquire (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:455:10)
+    at promise.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24)
+From previous event:
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at QueryInterface.select (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/query-interface.js:1104:27)
+    at Promise.try.then.then.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/model.js:1598:34)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at Function.findAll (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/model.js:1595:8)
+    at UserService.getUserList (/Users/coco/project/support/performance-node/app/service/user.js:111:24)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+  name: 'SequelizeConnectionError',
+  parent:
+   { Error: connect ETIMEDOUT
+       at Connection._handleTimeoutError (/Users/coco/project/support/performance-node/node_modules/mysql2/lib/connection.js:171:17)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10)
+   From previous event:
+       at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:12)
+       at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+   From previous event:
+       at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+       at Object.create (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+       at Pool._createResource (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:308:42)
+       at Pool._dispense (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:226:12)
+       at Pool.acquire (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:455:10)
+       at promise.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24)
+   From previous event:
+       at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+       at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+   From previous event:
+       at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+       at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+       at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+       at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+       at QueryInterface.select (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/query-interface.js:1104:27)
+       at Promise.try.then.then.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/model.js:1598:34)
+       at runCallback (timers.js:705:18)
+       at tryOnImmediate (timers.js:676:5)
+       at processImmediate (timers.js:658:5)
+   From previous event:
+       at Function.findAll (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/model.js:1595:8)
+       at UserService.getUserList (/Users/coco/project/support/performance-node/app/service/user.js:111:24)
+       at process._tickCallback (internal/process/next_tick.js:68:7)
+     errorno: 'ETIMEDOUT',
+     code: 'ETIMEDOUT',
+     syscall: 'connect',
+     fatal: true },
+  original:
+   { Error: connect ETIMEDOUT
+       at Connection._handleTimeoutError (/Users/coco/project/support/performance-node/node_modules/mysql2/lib/connection.js:171:17)
+       at ontimeout (timers.js:436:11)
+       at tryOnTimeout (timers.js:300:5)
+       at listOnTimeout (timers.js:263:5)
+       at Timer.processTimers (timers.js:223:10)
+   From previous event:
+       at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:92:12)
+       at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+   From previous event:
+       at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+       at Object.create (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:101:28)
+       at Pool._createResource (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:308:42)
+       at Pool._dispense (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:226:12)
+       at Pool.acquire (/Users/coco/project/support/performance-node/node_modules/generic-pool/lib/Pool.js:455:10)
+       at promise.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:292:24)
+   From previous event:
+       at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:291:20)
+       at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+   From previous event:
+       at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+       at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+       at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+       at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+       at QueryInterface.select (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/query-interface.js:1104:27)
+       at Promise.try.then.then.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/model.js:1598:34)
+       at runCallback (timers.js:705:18)
+       at tryOnImmediate (timers.js:676:5)
+       at processImmediate (timers.js:658:5)
+   From previous event:
+       at Function.findAll (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/model.js:1595:8)
+       at UserService.getUserList (/Users/coco/project/support/performance-node/app/service/user.js:111:24)
+       at process._tickCallback (internal/process/next_tick.js:68:7)
+     errorno: 'ETIMEDOUT',
+     code: 'ETIMEDOUT',
+     syscall: 'connect',
+     fatal: true } }
+2019-07-29 14:54:54,454 ERROR 2258 [-/::1/-/11151ms GET /api/userList?] [controller.user]: 获取用户列表失败 {}
+2019-07-29 14:54:54,454 ERROR 2258 [-/::1/-/11151ms GET /api/userList?] [server error]: method = "GET", originalUrl = "/api/userList?"
+    status=404, reqParam= undefined Error: Error: SequelizeConnectionError: connect ETIMEDOUT
+    at UserController.getUserList (/Users/coco/project/support/performance-node/app/controller/user.js:50:13)
+2019-07-29 14:55:08,247 ERROR 4049 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 4049
+hostname: cocodeiMac.local
+
+2019-07-29 14:55:27,267 ERROR 4088 nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:338:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:266:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:262:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 4088
+hostname: cocodeiMac.local
+
+2019-07-29 19:23:53,550 ERROR 4710 [-/127.0.0.1/-/0ms GET /] nodejs.Error: [egg-schedule] Cannot find schedule pk
+    at Application.app.runSchedule.args [as runSchedule] (/Users/coco/project/support/performance-node/node_modules/egg-schedule/app.js:91:15)
+    at AppBootHook.willReady (/Users/coco/project/support/performance-node/app.js:12:20)
+
+pid: 4710
+hostname: cocodeiMac.local
+
+2019-07-29 20:34:04,025 ERROR 6152 [-/::1/-/1ms GET /index.html] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/coco/project/support/performance-node/app/public/index.html'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/coco/project/support/performance-node/app/public/index.html'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/coco/project/support/performance-node/app/public/index.html"
+name: "ENOENTError"
+pid: 6152
+hostname: cocodeiMac.local
+
+2019-07-29 20:34:04,025 ERROR 6152 catch sys with err {"errno":-2,"code":"ENOENT","syscall":"stat","path":"/Users/coco/project/support/performance-node/app/public/index.html","name":"ENOENTError"}
+2019-07-29 20:34:07,240 ERROR 6152 [-/::1/-/0ms GET /index.html] nodejs.ENOENTError: ENOENT: no such file or directory, stat '/Users/coco/project/support/performance-node/app/public/index.html'
+ENOENTError: ENOENT: no such file or directory, stat '/Users/coco/project/support/performance-node/app/public/index.html'
+errno: -2
+code: "ENOENT"
+syscall: "stat"
+path: "/Users/coco/project/support/performance-node/app/public/index.html"
+name: "ENOENTError"
+pid: 6152
+hostname: cocodeiMac.local
+
+2019-07-29 20:34:07,242 ERROR 6152 catch sys with err {"errno":-2,"code":"ENOENT","syscall":"stat","path":"/Users/coco/project/support/performance-node/app/public/index.html","name":"ENOENTError"}

@@ -1,0 +1,628 @@
+{"level":"INFO","date":"2019-07-29 13:01:05,912","pid":2258,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 13:01:05,948","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 13:01:06,346","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 13:01:06,349","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,349","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,350","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,350","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,351","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,351","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,351","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 13:01:06,364","pid":2258,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 6ms"}
+{"level":"INFO","date":"2019-07-29 13:01:06,387","pid":2258,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 13:01:06,759","pid":2258,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"paddingMessage":"[-/::1/-/11151ms GET /api/userList?]","level":"ERROR","date":"2019-07-29 14:54:54,454","pid":2258,"hostname":"cocodeiMac.local","message":"[server error]: method = \"GET\", originalUrl = \"/api/userList?\"\n    status=404, reqParam= undefined Error: Error: SequelizeConnectionError: connect ETIMEDOUT\n    at UserController.getUserList (/Users/coco/project/support/performance-node/app/controller/user.js:50:13)"}
+{"level":"INFO","date":"2019-07-29 14:54:57,500","pid":4049,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 14:54:57,547","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 14:54:58,203","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 14:54:58,206","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,207","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,207","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,208","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,208","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,209","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,209","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 14:54:58,223","pid":4049,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 6ms"}
+{"level":"INFO","date":"2019-07-29 14:54:58,246","pid":4049,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 14:55:08,257","pid":4049,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 14:55:40,290","pid":4104,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 14:55:40,333","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 14:55:40,694","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 14:55:40,696","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,696","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,697","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,697","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,697","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,697","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,697","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 14:55:40,705","pid":4104,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 14:55:40,733","pid":4104,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 14:55:41,359","pid":4104,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:19:14,368","pid":4632,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:19:14,414","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:19:15,103","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:19:15,105","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,106","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,107","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,107","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,108","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,108","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,108","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:15,121","pid":4632,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:19:15,156","pid":4632,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:19:15,809","pid":4632,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:19:19,287","pid":4643,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:19:19,327","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:19:19,735","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:19:19,737","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,737","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,737","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,737","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,738","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,738","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,738","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:19:19,747","pid":4643,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:19:19,778","pid":4643,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:19:20,130","pid":4643,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:21:05,543","pid":4699,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:21:05,588","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:21:06,252","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:21:06,255","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,256","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,258","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,259","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,260","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,260","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,261","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:06,273","pid":4699,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:21:06,299","pid":4699,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:21:06,580","pid":4699,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 6ms"}
+{"level":"INFO","date":"2019-07-29 15:21:11,379","pid":4711,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:21:11,434","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:21:11,887","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:21:11,889","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,889","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,890","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,890","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,891","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,891","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,891","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:21:11,904","pid":4711,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:21:11,930","pid":4711,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:21:12,100","pid":4711,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:22:35,441","pid":4744,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:22:35,485","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:22:36,149","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:22:36,151","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,151","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,152","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,152","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,152","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,153","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,153","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:36,166","pid":4744,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:22:36,190","pid":4744,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:22:36,385","pid":4744,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:22:48,485","pid":4762,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:22:48,527","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:22:48,920","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:22:48,922","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,922","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,922","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,923","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,923","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,923","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,923","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:22:48,935","pid":4762,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 6ms"}
+{"level":"INFO","date":"2019-07-29 15:22:48,960","pid":4762,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:22:49,225","pid":4762,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:29:13,635","pid":4910,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:29:13,683","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:29:14,339","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:29:14,341","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,342","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,342","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,343","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,343","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,344","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,344","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:14,358","pid":4910,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 6ms"}
+{"level":"INFO","date":"2019-07-29 15:29:14,384","pid":4910,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:29:14,670","pid":4910,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 15:29:17,609","pid":4920,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:29:17,653","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:29:18,071","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:29:18,073","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,073","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,074","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,074","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,074","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,075","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,075","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:29:18,085","pid":4920,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:29:18,109","pid":4920,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:29:18,274","pid":4920,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 15:36:07,827","pid":5068,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:36:07,888","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:36:08,640","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:36:08,645","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,646","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,647","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,648","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,648","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,649","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,649","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:36:08,675","pid":5068,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 14ms"}
+{"level":"INFO","date":"2019-07-29 15:36:08,708","pid":5068,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:36:08,951","pid":5068,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 7ms"}
+{"level":"INFO","date":"2019-07-29 15:41:53,986","pid":5184,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:41:54,030","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:41:54,696","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:41:54,699","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,699","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,700","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,700","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,701","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,701","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,701","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:41:54,714","pid":5184,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:41:54,736","pid":5184,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:41:55,116","pid":5184,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 15:54:45,343","pid":5464,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 15:54:45,386","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 15:54:45,788","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 15:54:45,791","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,791","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,792","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,792","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,793","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,793","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,793","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 15:54:45,807","pid":5464,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 6ms"}
+{"level":"INFO","date":"2019-07-29 15:54:45,836","pid":5464,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 15:54:46,125","pid":5464,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 6ms"}
+{"level":"INFO","date":"2019-07-29 19:05:52,834","pid":3975,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:05:52,879","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:05:53,339","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:05:53,341","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,342","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,342","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,343","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,344","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,345","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,345","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:05:53,358","pid":3975,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:05:53,386","pid":3975,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:05:53,640","pid":3975,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:08:31,536","pid":4092,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:08:31,575","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:08:32,180","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:08:32,182","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,182","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,183","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,183","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,184","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,184","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,184","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:08:32,196","pid":4092,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:08:32,218","pid":4092,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:08:32,455","pid":4092,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 19:09:06,348","pid":4150,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:09:06,398","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:09:07,103","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:09:07,106","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,107","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,107","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,108","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,108","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,109","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,109","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:07,125","pid":4150,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 7ms"}
+{"level":"INFO","date":"2019-07-29 19:09:07,161","pid":4150,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:09:07,355","pid":4150,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:09:07,965","pid":4159,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:09:08,014","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:09:08,464","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:09:08,467","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,468","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,468","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,469","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,469","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,469","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,470","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:09:08,485","pid":4159,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 7ms"}
+{"level":"INFO","date":"2019-07-29 19:09:08,518","pid":4159,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:09:08,684","pid":4159,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:14:17,267","pid":4376,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:14:17,304","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:14:17,686","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:14:17,689","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,689","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,690","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,690","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,690","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,691","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,691","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:14:17,702","pid":4376,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:14:17,725","pid":4376,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:14:17,895","pid":4376,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:15:11,730","pid":4409,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:15:11,772","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:15:12,375","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:15:12,377","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,378","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,378","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,379","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,379","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,380","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,380","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:12,392","pid":4409,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:15:12,414","pid":4409,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:15:12,583","pid":4409,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:15:14,972","pid":4419,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:15:15,010","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:15:15,359","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:15:15,361","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,361","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,361","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,361","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,361","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,362","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,362","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:15,371","pid":4419,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:15:15,392","pid":4419,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:15:15,558","pid":4419,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:15:35,855","pid":4431,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:15:35,896","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:15:36,265","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:15:36,267","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,267","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,267","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,268","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,268","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,268","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,268","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:15:36,277","pid":4431,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:15:36,298","pid":4431,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:15:36,478","pid":4431,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:16:52,764","pid":4477,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:16:52,805","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:16:53,513","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:16:53,518","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,520","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,520","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,521","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,521","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,522","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,522","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:16:53,538","pid":4477,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 7ms"}
+{"level":"INFO","date":"2019-07-29 19:16:53,587","pid":4477,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:16:53,782","pid":4477,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:19:10,614","pid":4538,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:19:10,654","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:19:11,250","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:19:11,252","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,253","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,253","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,254","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,254","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,255","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,255","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:19:11,266","pid":4538,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 6ms"}
+{"level":"INFO","date":"2019-07-29 19:19:11,286","pid":4538,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:19:11,800","pid":4538,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 6ms"}
+{"level":"INFO","date":"2019-07-29 19:20:13,130","pid":4579,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:20:13,167","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:20:13,533","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:20:13,535","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,535","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,536","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,536","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,537","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,537","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,537","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:20:13,549","pid":4579,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:20:13,572","pid":4579,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:20:13,728","pid":4579,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 19:22:18,458","pid":4614,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:22:18,499","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:22:19,105","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:22:19,108","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,108","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,109","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,109","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,110","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,110","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,110","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:22:19,122","pid":4614,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:22:19,144","pid":4614,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:22:19,421","pid":4614,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:23:31,256","pid":4693,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:23:31,298","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:23:31,937","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:23:31,940","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,941","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,941","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,942","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,942","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,943","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,943","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:31,955","pid":4693,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:23:31,977","pid":4693,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:23:32,151","pid":4693,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 9ms"}
+{"level":"INFO","date":"2019-07-29 19:23:32,609","pid":4695,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:23:32,644","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:23:33,009","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:23:33,010","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,011","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,011","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,011","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,011","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,011","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,011","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:33,020","pid":4695,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:23:33,045","pid":4695,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:23:33,207","pid":4695,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 19:23:52,761","pid":4710,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:23:52,805","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:23:53,401","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:23:53,403","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,404","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,404","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,405","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,405","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,405","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,405","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:23:53,416","pid":4710,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:23:53,439","pid":4710,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:23:53,555","pid":4710,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:24:07,952","pid":4731,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:24:07,991","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:24:08,365","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:24:08,367","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,367","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,367","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,368","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,368","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,368","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,368","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:24:08,376","pid":4731,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 19:24:08,400","pid":4731,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:24:08,567","pid":4731,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 19:59:28,561","pid":5615,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 19:59:28,598","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 19:59:29,231","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 19:59:29,234","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,234","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,235","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,236","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,236","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,237","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,237","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 19:59:29,248","pid":5615,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 19:59:29,270","pid":5615,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 19:59:29,551","pid":5615,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:00:04,202","pid":5646,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:00:04,246","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:00:04,864","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:00:04,866","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,867","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,868","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,868","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,868","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,869","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,869","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:04,880","pid":5646,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:00:04,902","pid":5646,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:00:05,086","pid":5646,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:00:06,321","pid":5657,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:00:06,363","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:00:06,704","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:00:06,706","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,706","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,707","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,707","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,707","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,707","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,707","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:06,715","pid":5657,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 3ms"}
+{"level":"INFO","date":"2019-07-29 20:00:06,737","pid":5657,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:00:06,900","pid":5657,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 20:00:24,377","pid":5679,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:00:24,416","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:00:24,774","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:00:24,776","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,776","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,776","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,777","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,777","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,777","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,777","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:00:24,785","pid":5679,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:00:24,810","pid":5679,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:00:24,986","pid":5679,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 20:09:16,524","pid":5931,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:09:16,567","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:09:17,190","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:09:17,193","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,194","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,194","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,194","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,195","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,195","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,195","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:09:17,206","pid":5931,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:09:17,228","pid":5931,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:09:17,596","pid":5931,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:10:29,061","pid":5979,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:10:29,106","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:10:29,727","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:10:29,729","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,730","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,730","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,731","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,731","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,732","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,732","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:10:29,744","pid":5979,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:10:29,768","pid":5979,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:10:30,005","pid":5979,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:11:18,874","pid":6014,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:11:18,917","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:11:19,544","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:11:19,546","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,546","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,547","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,547","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,548","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,548","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,548","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:11:19,560","pid":6014,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:11:19,585","pid":6014,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:11:19,757","pid":6014,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:13:52,082","pid":6116,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:13:52,123","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:13:52,731","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:13:52,733","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,734","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,734","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,735","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,735","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,735","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,735","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:13:52,746","pid":6116,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:13:52,766","pid":6116,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:13:52,993","pid":6116,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:14:08,543","pid":6131,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:14:08,581","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:14:08,935","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:14:08,937","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,938","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,938","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,938","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,938","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,939","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,939","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:08,949","pid":6131,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:14:08,974","pid":6131,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:14:09,116","pid":6131,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 20:14:35,358","pid":6152,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:14:35,399","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:14:35,775","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:14:35,777","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,777","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,777","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,778","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,778","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,778","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,778","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:14:35,787","pid":6152,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:14:35,812","pid":6152,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:14:36,004","pid":6152,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:34:52,945","pid":6627,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:34:52,988","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:34:53,613","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:34:53,615","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,615","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,616","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,617","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,617","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,617","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,618","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:34:53,629","pid":6627,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:34:53,656","pid":6627,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:34:53,895","pid":6627,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:48:25,675","pid":6839,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:48:25,719","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:48:26,320","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:48:26,322","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,322","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,323","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,324","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,324","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,324","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,324","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:48:26,335","pid":6839,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:48:26,356","pid":6839,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:48:26,597","pid":6839,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:49:20,345","pid":6872,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:49:20,389","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:49:21,002","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:49:21,004","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,005","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,005","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,006","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,007","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,007","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,007","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:49:21,018","pid":6872,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:49:21,042","pid":6872,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:49:21,224","pid":6872,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 3ms"}
+{"level":"INFO","date":"2019-07-29 20:56:30,855","pid":7023,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:56:30,897","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:56:31,489","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:56:31,491","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,492","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,492","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,493","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,493","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,493","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,493","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:31,505","pid":7023,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 5ms"}
+{"level":"INFO","date":"2019-07-29 20:56:31,531","pid":7023,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:56:31,853","pid":7023,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:56:47,041","pid":7057,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 20:56:47,083","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 20:56:47,451","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 20:56:47,453","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,454","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,454","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,454","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,454","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,454","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,454","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 20:56:47,463","pid":7057,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 20:56:47,486","pid":7057,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 20:56:47,665","pid":7057,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 21:01:50,961","pid":7177,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 21:01:50,999","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 21:01:51,630","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 21:01:51,632","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,632","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,633","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,633","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,634","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,634","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,634","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 21:01:51,645","pid":7177,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 21:01:51,666","pid":7177,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 21:01:51,859","pid":7177,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 5ms"}
+{"level":"INFO","date":"2019-07-29 21:02:27,759","pid":7204,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 21:02:27,798","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 21:02:28,430","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 21:02:28,433","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,434","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,434","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,435","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,435","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,436","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,436","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 21:02:28,447","pid":7204,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 21:02:28,471","pid":7204,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 21:02:28,638","pid":7204,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 21:04:03,590","pid":7244,"hostname":"cocodeiMac.local","message":"[egg:logger] init all loggers with options: {\"dir\":\"/Users/coco/project/support/performance-node/logs/performance-node\",\"encoding\":\"utf8\",\"env\":\"local\",\"level\":\"DEBUG\",\"consoleLevel\":\"DEBUG\",\"disableConsoleAfterReady\":false,\"outputJSON\":true,\"buffer\":true,\"appLogName\":\"performance-node-web.log\",\"coreLogName\":\"egg-web.log\",\"agentLogName\":\"egg-agent.log\",\"errorLogName\":\"common-error.log\",\"coreLogger\":{\"consoleLevel\":\"WARN\"},\"allowDebugAtProd\":false,\"type\":\"application\"}"}
+{"level":"INFO","date":"2019-07-29 21:04:03,632","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-multipart] stream mode enable"}
+{"level":"INFO","date":"2019-07-29 21:04:04,307","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public"}
+{"level":"INFO","date":"2019-07-29 21:04:04,309","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] use methodnoallow middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,309","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] use noopen middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,310","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] use nosniff middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,310","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] use xssProtection middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,311","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] use xframe middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,311","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] use dta middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,311","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-security] compose 6 middlewares into one security middleware"}
+{"level":"INFO","date":"2019-07-29 21:04:04,322","pid":7244,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after load, 4ms"}
+{"level":"INFO","date":"2019-07-29 21:04:04,347","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-watcher:application] watcher start success"}
+{"level":"INFO","date":"2019-07-29 21:04:04,780","pid":7244,"hostname":"cocodeiMac.local","message":"[egg:core] dump config after ready, 4ms"}
+{"level":"INFO","date":"2019-07-29 23:59:59,958","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-logrotator] clean all log before 31 days"}
+{"level":"INFO","date":"2019-07-30 00:00:00,965","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-logrotator] broadcast log-reload"}
+{"level":"INFO","date":"2019-07-30 00:00:00,966","pid":7244,"hostname":"cocodeiMac.local","message":"[egg-logrotator] rotate files success by DayRotator, files [\"/Users/coco/project/support/performance-node/logs/performance-node/common-error.log -> /Users/coco/project/support/performance-node/logs/performance-node/common-error.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/common-error.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/common-error.json.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.log -> /Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.json.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/egg-web.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-web.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/egg-web.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-web.json.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.json.log.2019-07-29\",\"/Users/coco/project/support/performance-node/logs/performance-node/egg-agent.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-agent.log.2019-07-29\"]"}

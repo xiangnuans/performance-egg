@@ -1,0 +1,10 @@
+2019-07-16 23:58:59,669 ERROR 76392 [Job#15632927396536350947639823914] /Users/coco/project/support/performance-node/app/schedule/pk.js execute error. SyntaxError: Identifier 'date' has already been declared
+    at PKSubscription.subscribe (/Users/coco/project/support/performance-node/app/schedule/pk.js:19:26)
+    at Object.task (/Users/coco/project/support/performance-node/node_modules/egg-schedule/lib/load_schedule.js:37:22)
+    at Messenger.app.messenger.on.info (/Users/coco/project/support/performance-node/node_modules/egg-schedule/app.js:46:21)
+    at Messenger.emit (events.js:182:13)
+    at Messenger._onMessage (/Users/coco/project/support/performance-node/node_modules/egg/lib/core/messenger/ipc.js:116:12)
+    at process.emit (events.js:187:15)
+    at emit (internal/child_process.js:812:12)
+    at process._tickCallback (internal/process/next_tick.js:63:19)
+2019-07-16 23:58:59,669 ERROR 76392 [Job#15632927396536350947639823914] /Users/coco/project/support/performance-node/app/schedule/pk.js execute failed, used 1ms

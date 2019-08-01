@@ -1,0 +1,252 @@
+2019-07-13 00:00:00,875 DEBUG 72806 [Job#15629472008502895544769221481] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js finish event received by agent from worker#80703
+2019-07-13 04:29:59,776 DEBUG 72806 [Job#15629633997753057534800655931] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js triggered, send random by agent
+2019-07-13 04:29:59,787 INFO 72806 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86400224ms at 2019-07-14 04:30:00.011
+2019-07-13 04:29:59,794 DEBUG 72806 [Job#15629633997753057534800655931] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js finish event received by agent from worker#80703
+2019-07-13 04:29:59,785 DEBUG 80703 [Job#15629633997753057534800655931] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js task received by app
+2019-07-13 04:29:59,785 INFO 80703 [Job#15629633997753057534800655931] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2019-07-13 04:29:59,792 INFO 80703 [Job#15629633997753057534800655931] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 7ms
+2019-07-13 10:12:28,446 INFO 90717 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 10:12:28,447 INFO 90717 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 10:12:28,447 INFO 90717 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 10:12:28,447 INFO 90717 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 10:13:40,322 INFO 90764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 10:13:40,322 INFO 90764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 10:13:40,322 INFO 90764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 10:13:40,322 INFO 90764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 17:42:10,443 INFO 3679 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 17:42:10,443 INFO 3679 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 17:42:10,443 INFO 3679 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 17:42:10,443 INFO 3679 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 17:42:10,940 INFO 3677 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38869063ms at 2019-07-14 04:30:00.003
+2019-07-13 17:42:10,940 INFO 3677 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22669060ms at 2019-07-14 00:00:00.000
+2019-07-13 17:42:10,940 INFO 3677 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22670060ms at 2019-07-14 00:00:01.000
+2019-07-13 17:42:10,941 INFO 3677 [Timer] /Users/coco/project/support/performance-node/app/schedule/pk.js next time will execute after 22609060ms at 2019-07-13 23:59:00.001
+2019-07-13 17:42:22,302 INFO 3700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 17:42:22,302 INFO 3700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 17:42:22,302 INFO 3700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 17:42:22,302 INFO 3700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 17:42:22,848 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 38857155ms at 2019-07-14 04:30:00.003
+2019-07-13 17:42:22,848 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 22657152ms at 2019-07-14 00:00:00.000
+2019-07-13 17:42:22,848 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 22658152ms at 2019-07-14 00:00:01.000
+2019-07-13 17:42:22,849 INFO 3699 [Timer] /Users/coco/project/support/performance-node/app/schedule/pk.js next time will execute after 22597152ms at 2019-07-13 23:59:00.001
+2019-07-13 17:42:50,091 INFO 3719 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 17:42:50,091 INFO 3719 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 17:42:50,091 INFO 3719 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 17:42:50,091 INFO 3719 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:04:35,322 INFO 4038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:04:35,322 INFO 4038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:04:35,322 INFO 4038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:04:35,322 INFO 4038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:19:03,870 INFO 4303 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:19:03,870 INFO 4303 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:19:03,870 INFO 4303 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:19:03,870 INFO 4303 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:37:13,841 INFO 4584 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:37:13,841 INFO 4584 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:37:13,841 INFO 4584 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:37:13,842 INFO 4584 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:39:05,281 INFO 4636 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:39:05,281 INFO 4636 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:39:05,281 INFO 4636 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:39:05,281 INFO 4636 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:39:35,783 INFO 4664 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:39:35,783 INFO 4664 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:39:35,783 INFO 4664 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:39:35,783 INFO 4664 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:44:38,043 INFO 4762 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:44:38,043 INFO 4762 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:44:38,043 INFO 4762 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:44:38,043 INFO 4762 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:46:56,654 INFO 4812 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:46:56,654 INFO 4812 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:46:56,654 INFO 4812 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:46:56,655 INFO 4812 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:50:24,610 INFO 4906 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:50:24,610 INFO 4906 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:50:24,610 INFO 4906 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:50:24,610 INFO 4906 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:50:35,901 INFO 4933 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:50:35,901 INFO 4933 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:50:35,901 INFO 4933 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:50:35,901 INFO 4933 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:52:25,206 INFO 4987 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:52:25,206 INFO 4987 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:52:25,206 INFO 4987 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:52:25,206 INFO 4987 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:52:29,987 INFO 5002 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:52:29,987 INFO 5002 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:52:29,987 INFO 5002 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:52:29,987 INFO 5002 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:53:30,787 INFO 5056 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:53:30,787 INFO 5056 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:53:30,787 INFO 5056 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:53:30,787 INFO 5056 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:54:44,429 INFO 5092 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:54:44,429 INFO 5092 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:54:44,429 INFO 5092 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:54:44,429 INFO 5092 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:55:06,360 INFO 5113 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:55:06,360 INFO 5113 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:55:06,361 INFO 5113 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:55:06,361 INFO 5113 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 18:55:18,118 INFO 5126 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 18:55:18,118 INFO 5126 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 18:55:18,118 INFO 5126 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 18:55:18,118 INFO 5126 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:15:52,914 INFO 5435 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:15:52,914 INFO 5435 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:15:52,914 INFO 5435 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:15:52,914 INFO 5435 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:43:34,762 INFO 5829 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:43:34,762 INFO 5829 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:43:34,762 INFO 5829 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:43:34,762 INFO 5829 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:43:39,566 INFO 5841 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:43:39,566 INFO 5841 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:43:39,566 INFO 5841 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:43:39,566 INFO 5841 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:45:00,229 INFO 5881 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:45:00,229 INFO 5881 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:45:00,229 INFO 5881 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:45:00,229 INFO 5881 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:52:30,854 INFO 6005 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:52:30,854 INFO 6005 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:52:30,854 INFO 6005 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:52:30,854 INFO 6005 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:53:37,026 INFO 6038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:53:37,026 INFO 6038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:53:37,026 INFO 6038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:53:37,026 INFO 6038 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:54:43,428 INFO 6071 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:54:43,429 INFO 6071 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:54:43,429 INFO 6071 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:54:43,429 INFO 6071 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 19:55:29,460 INFO 6102 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 19:55:29,460 INFO 6102 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 19:55:29,460 INFO 6102 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 19:55:29,460 INFO 6102 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:14:39,393 INFO 6378 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:14:39,393 INFO 6378 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:14:39,393 INFO 6378 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:14:39,393 INFO 6378 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:17:23,842 INFO 6469 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:17:23,842 INFO 6469 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:17:23,842 INFO 6469 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:17:23,842 INFO 6469 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:17:28,759 INFO 6480 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:17:28,759 INFO 6480 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:17:28,759 INFO 6480 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:17:28,759 INFO 6480 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:17:57,171 INFO 6501 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:17:57,171 INFO 6501 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:17:57,171 INFO 6501 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:17:57,171 INFO 6501 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:18:23,893 INFO 6536 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:18:23,893 INFO 6536 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:18:23,893 INFO 6536 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:18:23,893 INFO 6536 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:18:36,984 INFO 6555 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:18:36,984 INFO 6555 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:18:36,984 INFO 6555 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:18:36,984 INFO 6555 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:19:34,811 INFO 6602 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:19:34,811 INFO 6602 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:19:34,811 INFO 6602 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:19:34,811 INFO 6602 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:21:06,139 INFO 6639 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:21:06,139 INFO 6639 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:21:06,139 INFO 6639 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:21:06,139 INFO 6639 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:21:53,545 INFO 6660 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:21:53,545 INFO 6660 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:21:53,546 INFO 6660 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:21:53,546 INFO 6660 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:23:02,228 INFO 6697 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:23:02,228 INFO 6697 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:23:02,228 INFO 6697 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:23:02,228 INFO 6697 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:26:23,396 INFO 6764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:26:23,396 INFO 6764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:26:23,396 INFO 6764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:26:23,396 INFO 6764 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:27:48,591 INFO 6802 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:27:48,591 INFO 6802 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:27:48,591 INFO 6802 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:27:48,591 INFO 6802 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:32:22,875 INFO 6902 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:32:22,875 INFO 6902 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:32:22,875 INFO 6902 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:32:22,875 INFO 6902 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:33:51,370 INFO 6954 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:33:51,370 INFO 6954 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:33:51,370 INFO 6954 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:33:51,370 INFO 6954 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:34:28,769 INFO 6984 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:34:28,769 INFO 6984 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:34:28,769 INFO 6984 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:34:28,769 INFO 6984 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:35:54,133 INFO 7023 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:35:54,133 INFO 7023 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:35:54,133 INFO 7023 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:35:54,133 INFO 7023 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:37:33,408 INFO 7087 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:37:33,408 INFO 7087 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:37:33,408 INFO 7087 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:37:33,408 INFO 7087 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:38:24,554 INFO 7119 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:38:24,554 INFO 7119 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:38:24,554 INFO 7119 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:38:24,554 INFO 7119 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:40:12,542 INFO 7153 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:40:12,542 INFO 7153 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:40:12,542 INFO 7153 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:40:12,542 INFO 7153 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:44:26,762 INFO 7263 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:44:26,762 INFO 7263 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:44:26,762 INFO 7263 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:44:26,762 INFO 7263 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:45:24,063 INFO 7306 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:45:24,063 INFO 7306 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:45:24,063 INFO 7306 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:45:24,063 INFO 7306 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:47:45,166 INFO 7364 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:47:45,166 INFO 7364 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:47:45,166 INFO 7364 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:47:45,166 INFO 7364 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:51:00,491 INFO 7432 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:51:00,491 INFO 7432 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:51:00,491 INFO 7432 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:51:00,491 INFO 7432 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:54:42,832 INFO 7513 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:54:42,832 INFO 7513 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:54:42,832 INFO 7513 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:54:42,832 INFO 7513 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 20:56:59,223 INFO 7568 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 20:56:59,223 INFO 7568 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 20:56:59,223 INFO 7568 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 20:56:59,223 INFO 7568 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 21:02:01,370 INFO 7700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 21:02:01,370 INFO 7700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 21:02:01,370 INFO 7700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 21:02:01,370 INFO 7700 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 21:02:42,830 INFO 7733 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js
+2019-07-13 21:02:42,830 INFO 7733 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js
+2019-07-13 21:02:42,830 INFO 7733 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js
+2019-07-13 21:02:42,830 INFO 7733 [egg-schedule]: register schedule /Users/coco/project/support/performance-node/app/schedule/pk.js
+2019-07-13 23:58:59,960 DEBUG 3699 [Job#15630335399583758938842435071] /Users/coco/project/support/performance-node/app/schedule/pk.js triggered, send all by agent
+2019-07-13 23:58:59,985 INFO 3699 [Timer] /Users/coco/project/support/performance-node/app/schedule/pk.js next time will execute after 86400035ms at 2019-07-14 23:59:00.020
+2019-07-13 23:58:59,987 DEBUG 3699 [Job#15630335399583758938842435071] /Users/coco/project/support/performance-node/app/schedule/pk.js finish event received by agent from worker#7733
+2019-07-13 23:58:59,969 DEBUG 7733 [Job#15630335399583758938842435071] /Users/coco/project/support/performance-node/app/schedule/pk.js task received by app
+2019-07-13 23:58:59,969 INFO 7733 [Job#15630335399583758938842435071] /Users/coco/project/support/performance-node/app/schedule/pk.js executing by app
+2019-07-13 23:58:59,972 INFO 7733 [Job#15630335399583758938842435071] /Users/coco/project/support/performance-node/app/schedule/pk.js execute succeed, used 1ms
+2019-07-13 23:59:59,942 DEBUG 3699 [Job#15630335999413759538676411061] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2019-07-13 23:59:59,946 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400057ms at 2019-07-15 00:00:00.003
+2019-07-13 23:59:59,955 DEBUG 3699 [Job#15630335999413759538676411061] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js finish event received by agent from worker#7733
+2019-07-13 23:59:59,944 DEBUG 7733 [Job#15630335999413759538676411061] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2019-07-13 23:59:59,944 INFO 7733 [Job#15630335999413759538676411061] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-07-13 23:59:59,953 INFO 7733 [Job#15630335999413759538676411061] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 8ms
+2019-07-14 00:00:00,935 DEBUG 7733 [Job#15630336009343759548609964771] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2019-07-14 00:00:00,935 INFO 7733 [Job#15630336009343759548609964771] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-07-14 00:00:00,939 INFO 7733 [Job#15630336009343759548609964771] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 4ms
+2019-07-14 00:00:00,935 DEBUG 3699 [Job#15630336009343759548609964771] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2019-07-14 00:00:00,936 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400065ms at 2019-07-15 00:00:01.001

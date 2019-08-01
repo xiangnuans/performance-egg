@@ -1,0 +1,630 @@
+2019-07-29 13:01:05,911 INFO 2258 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 13:01:05,948 INFO 2258 [egg-multipart] stream mode enable
+2019-07-29 13:01:06,346 INFO 2258 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 13:01:06,349 INFO 2258 [egg-security] use methodnoallow middleware
+2019-07-29 13:01:06,349 INFO 2258 [egg-security] use noopen middleware
+2019-07-29 13:01:06,350 INFO 2258 [egg-security] use nosniff middleware
+2019-07-29 13:01:06,350 INFO 2258 [egg-security] use xssProtection middleware
+2019-07-29 13:01:06,351 INFO 2258 [egg-security] use xframe middleware
+2019-07-29 13:01:06,351 INFO 2258 [egg-security] use dta middleware
+2019-07-29 13:01:06,351 INFO 2258 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 13:01:06,364 INFO 2258 [egg:core] dump config after load, 6ms
+2019-07-29 13:01:06,387 INFO 2258 [egg-watcher:application] watcher start success
+2019-07-29 13:01:06,759 INFO 2258 [egg:core] dump config after ready, 4ms
+2019-07-29 14:54:54,454 ERROR 2258 [-/::1/-/11151ms GET /api/userList?] [server error]: method = "GET", originalUrl = "/api/userList?"
+    status=404, reqParam= undefined Error: Error: SequelizeConnectionError: connect ETIMEDOUT
+    at UserController.getUserList (/Users/coco/project/support/performance-node/app/controller/user.js:50:13)
+2019-07-29 14:54:57,499 INFO 4049 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 14:54:57,547 INFO 4049 [egg-multipart] stream mode enable
+2019-07-29 14:54:58,203 INFO 4049 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 14:54:58,206 INFO 4049 [egg-security] use methodnoallow middleware
+2019-07-29 14:54:58,207 INFO 4049 [egg-security] use noopen middleware
+2019-07-29 14:54:58,207 INFO 4049 [egg-security] use nosniff middleware
+2019-07-29 14:54:58,208 INFO 4049 [egg-security] use xssProtection middleware
+2019-07-29 14:54:58,208 INFO 4049 [egg-security] use xframe middleware
+2019-07-29 14:54:58,209 INFO 4049 [egg-security] use dta middleware
+2019-07-29 14:54:58,209 INFO 4049 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 14:54:58,223 INFO 4049 [egg:core] dump config after load, 6ms
+2019-07-29 14:54:58,246 INFO 4049 [egg-watcher:application] watcher start success
+2019-07-29 14:55:08,257 INFO 4049 [egg:core] dump config after ready, 4ms
+2019-07-29 14:55:40,289 INFO 4104 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 14:55:40,333 INFO 4104 [egg-multipart] stream mode enable
+2019-07-29 14:55:40,694 INFO 4104 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 14:55:40,696 INFO 4104 [egg-security] use methodnoallow middleware
+2019-07-29 14:55:40,696 INFO 4104 [egg-security] use noopen middleware
+2019-07-29 14:55:40,697 INFO 4104 [egg-security] use nosniff middleware
+2019-07-29 14:55:40,697 INFO 4104 [egg-security] use xssProtection middleware
+2019-07-29 14:55:40,697 INFO 4104 [egg-security] use xframe middleware
+2019-07-29 14:55:40,697 INFO 4104 [egg-security] use dta middleware
+2019-07-29 14:55:40,697 INFO 4104 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 14:55:40,705 INFO 4104 [egg:core] dump config after load, 4ms
+2019-07-29 14:55:40,733 INFO 4104 [egg-watcher:application] watcher start success
+2019-07-29 14:55:41,359 INFO 4104 [egg:core] dump config after ready, 5ms
+2019-07-29 15:19:14,367 INFO 4632 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:19:14,414 INFO 4632 [egg-multipart] stream mode enable
+2019-07-29 15:19:15,103 INFO 4632 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:19:15,105 INFO 4632 [egg-security] use methodnoallow middleware
+2019-07-29 15:19:15,106 INFO 4632 [egg-security] use noopen middleware
+2019-07-29 15:19:15,107 INFO 4632 [egg-security] use nosniff middleware
+2019-07-29 15:19:15,107 INFO 4632 [egg-security] use xssProtection middleware
+2019-07-29 15:19:15,108 INFO 4632 [egg-security] use xframe middleware
+2019-07-29 15:19:15,108 INFO 4632 [egg-security] use dta middleware
+2019-07-29 15:19:15,108 INFO 4632 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:19:15,121 INFO 4632 [egg:core] dump config after load, 4ms
+2019-07-29 15:19:15,156 INFO 4632 [egg-watcher:application] watcher start success
+2019-07-29 15:19:15,808 INFO 4632 [egg:core] dump config after ready, 4ms
+2019-07-29 15:19:19,287 INFO 4643 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:19:19,327 INFO 4643 [egg-multipart] stream mode enable
+2019-07-29 15:19:19,735 INFO 4643 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:19:19,736 INFO 4643 [egg-security] use methodnoallow middleware
+2019-07-29 15:19:19,737 INFO 4643 [egg-security] use noopen middleware
+2019-07-29 15:19:19,737 INFO 4643 [egg-security] use nosniff middleware
+2019-07-29 15:19:19,737 INFO 4643 [egg-security] use xssProtection middleware
+2019-07-29 15:19:19,737 INFO 4643 [egg-security] use xframe middleware
+2019-07-29 15:19:19,738 INFO 4643 [egg-security] use dta middleware
+2019-07-29 15:19:19,738 INFO 4643 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:19:19,747 INFO 4643 [egg:core] dump config after load, 5ms
+2019-07-29 15:19:19,778 INFO 4643 [egg-watcher:application] watcher start success
+2019-07-29 15:19:20,130 INFO 4643 [egg:core] dump config after ready, 5ms
+2019-07-29 15:21:05,542 INFO 4699 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:21:05,588 INFO 4699 [egg-multipart] stream mode enable
+2019-07-29 15:21:06,252 INFO 4699 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:21:06,255 INFO 4699 [egg-security] use methodnoallow middleware
+2019-07-29 15:21:06,256 INFO 4699 [egg-security] use noopen middleware
+2019-07-29 15:21:06,258 INFO 4699 [egg-security] use nosniff middleware
+2019-07-29 15:21:06,259 INFO 4699 [egg-security] use xssProtection middleware
+2019-07-29 15:21:06,260 INFO 4699 [egg-security] use xframe middleware
+2019-07-29 15:21:06,260 INFO 4699 [egg-security] use dta middleware
+2019-07-29 15:21:06,261 INFO 4699 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:21:06,273 INFO 4699 [egg:core] dump config after load, 5ms
+2019-07-29 15:21:06,299 INFO 4699 [egg-watcher:application] watcher start success
+2019-07-29 15:21:06,580 INFO 4699 [egg:core] dump config after ready, 6ms
+2019-07-29 15:21:11,379 INFO 4711 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:21:11,434 INFO 4711 [egg-multipart] stream mode enable
+2019-07-29 15:21:11,887 INFO 4711 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:21:11,889 INFO 4711 [egg-security] use methodnoallow middleware
+2019-07-29 15:21:11,889 INFO 4711 [egg-security] use noopen middleware
+2019-07-29 15:21:11,890 INFO 4711 [egg-security] use nosniff middleware
+2019-07-29 15:21:11,890 INFO 4711 [egg-security] use xssProtection middleware
+2019-07-29 15:21:11,891 INFO 4711 [egg-security] use xframe middleware
+2019-07-29 15:21:11,891 INFO 4711 [egg-security] use dta middleware
+2019-07-29 15:21:11,891 INFO 4711 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:21:11,904 INFO 4711 [egg:core] dump config after load, 5ms
+2019-07-29 15:21:11,930 INFO 4711 [egg-watcher:application] watcher start success
+2019-07-29 15:21:12,100 INFO 4711 [egg:core] dump config after ready, 4ms
+2019-07-29 15:22:35,441 INFO 4744 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:22:35,485 INFO 4744 [egg-multipart] stream mode enable
+2019-07-29 15:22:36,149 INFO 4744 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:22:36,151 INFO 4744 [egg-security] use methodnoallow middleware
+2019-07-29 15:22:36,151 INFO 4744 [egg-security] use noopen middleware
+2019-07-29 15:22:36,152 INFO 4744 [egg-security] use nosniff middleware
+2019-07-29 15:22:36,152 INFO 4744 [egg-security] use xssProtection middleware
+2019-07-29 15:22:36,152 INFO 4744 [egg-security] use xframe middleware
+2019-07-29 15:22:36,153 INFO 4744 [egg-security] use dta middleware
+2019-07-29 15:22:36,153 INFO 4744 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:22:36,166 INFO 4744 [egg:core] dump config after load, 5ms
+2019-07-29 15:22:36,190 INFO 4744 [egg-watcher:application] watcher start success
+2019-07-29 15:22:36,385 INFO 4744 [egg:core] dump config after ready, 4ms
+2019-07-29 15:22:48,484 INFO 4762 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:22:48,527 INFO 4762 [egg-multipart] stream mode enable
+2019-07-29 15:22:48,919 INFO 4762 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:22:48,922 INFO 4762 [egg-security] use methodnoallow middleware
+2019-07-29 15:22:48,922 INFO 4762 [egg-security] use noopen middleware
+2019-07-29 15:22:48,922 INFO 4762 [egg-security] use nosniff middleware
+2019-07-29 15:22:48,923 INFO 4762 [egg-security] use xssProtection middleware
+2019-07-29 15:22:48,923 INFO 4762 [egg-security] use xframe middleware
+2019-07-29 15:22:48,923 INFO 4762 [egg-security] use dta middleware
+2019-07-29 15:22:48,923 INFO 4762 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:22:48,935 INFO 4762 [egg:core] dump config after load, 6ms
+2019-07-29 15:22:48,960 INFO 4762 [egg-watcher:application] watcher start success
+2019-07-29 15:22:49,225 INFO 4762 [egg:core] dump config after ready, 4ms
+2019-07-29 15:29:13,634 INFO 4910 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:29:13,683 INFO 4910 [egg-multipart] stream mode enable
+2019-07-29 15:29:14,339 INFO 4910 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:29:14,341 INFO 4910 [egg-security] use methodnoallow middleware
+2019-07-29 15:29:14,342 INFO 4910 [egg-security] use noopen middleware
+2019-07-29 15:29:14,342 INFO 4910 [egg-security] use nosniff middleware
+2019-07-29 15:29:14,343 INFO 4910 [egg-security] use xssProtection middleware
+2019-07-29 15:29:14,343 INFO 4910 [egg-security] use xframe middleware
+2019-07-29 15:29:14,344 INFO 4910 [egg-security] use dta middleware
+2019-07-29 15:29:14,344 INFO 4910 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:29:14,358 INFO 4910 [egg:core] dump config after load, 6ms
+2019-07-29 15:29:14,384 INFO 4910 [egg-watcher:application] watcher start success
+2019-07-29 15:29:14,670 INFO 4910 [egg:core] dump config after ready, 3ms
+2019-07-29 15:29:17,608 INFO 4920 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:29:17,653 INFO 4920 [egg-multipart] stream mode enable
+2019-07-29 15:29:18,071 INFO 4920 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:29:18,073 INFO 4920 [egg-security] use methodnoallow middleware
+2019-07-29 15:29:18,073 INFO 4920 [egg-security] use noopen middleware
+2019-07-29 15:29:18,074 INFO 4920 [egg-security] use nosniff middleware
+2019-07-29 15:29:18,074 INFO 4920 [egg-security] use xssProtection middleware
+2019-07-29 15:29:18,074 INFO 4920 [egg-security] use xframe middleware
+2019-07-29 15:29:18,075 INFO 4920 [egg-security] use dta middleware
+2019-07-29 15:29:18,075 INFO 4920 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:29:18,085 INFO 4920 [egg:core] dump config after load, 5ms
+2019-07-29 15:29:18,109 INFO 4920 [egg-watcher:application] watcher start success
+2019-07-29 15:29:18,274 INFO 4920 [egg:core] dump config after ready, 5ms
+2019-07-29 15:36:07,826 INFO 5068 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:36:07,888 INFO 5068 [egg-multipart] stream mode enable
+2019-07-29 15:36:08,640 INFO 5068 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:36:08,645 INFO 5068 [egg-security] use methodnoallow middleware
+2019-07-29 15:36:08,646 INFO 5068 [egg-security] use noopen middleware
+2019-07-29 15:36:08,647 INFO 5068 [egg-security] use nosniff middleware
+2019-07-29 15:36:08,648 INFO 5068 [egg-security] use xssProtection middleware
+2019-07-29 15:36:08,648 INFO 5068 [egg-security] use xframe middleware
+2019-07-29 15:36:08,649 INFO 5068 [egg-security] use dta middleware
+2019-07-29 15:36:08,649 INFO 5068 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:36:08,675 INFO 5068 [egg:core] dump config after load, 14ms
+2019-07-29 15:36:08,708 INFO 5068 [egg-watcher:application] watcher start success
+2019-07-29 15:36:08,951 INFO 5068 [egg:core] dump config after ready, 7ms
+2019-07-29 15:41:53,985 INFO 5184 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:41:54,030 INFO 5184 [egg-multipart] stream mode enable
+2019-07-29 15:41:54,696 INFO 5184 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:41:54,699 INFO 5184 [egg-security] use methodnoallow middleware
+2019-07-29 15:41:54,699 INFO 5184 [egg-security] use noopen middleware
+2019-07-29 15:41:54,700 INFO 5184 [egg-security] use nosniff middleware
+2019-07-29 15:41:54,700 INFO 5184 [egg-security] use xssProtection middleware
+2019-07-29 15:41:54,701 INFO 5184 [egg-security] use xframe middleware
+2019-07-29 15:41:54,701 INFO 5184 [egg-security] use dta middleware
+2019-07-29 15:41:54,701 INFO 5184 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:41:54,714 INFO 5184 [egg:core] dump config after load, 4ms
+2019-07-29 15:41:54,736 INFO 5184 [egg-watcher:application] watcher start success
+2019-07-29 15:41:55,116 INFO 5184 [egg:core] dump config after ready, 4ms
+2019-07-29 15:54:45,343 INFO 5464 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 15:54:45,386 INFO 5464 [egg-multipart] stream mode enable
+2019-07-29 15:54:45,788 INFO 5464 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 15:54:45,791 INFO 5464 [egg-security] use methodnoallow middleware
+2019-07-29 15:54:45,791 INFO 5464 [egg-security] use noopen middleware
+2019-07-29 15:54:45,792 INFO 5464 [egg-security] use nosniff middleware
+2019-07-29 15:54:45,792 INFO 5464 [egg-security] use xssProtection middleware
+2019-07-29 15:54:45,793 INFO 5464 [egg-security] use xframe middleware
+2019-07-29 15:54:45,793 INFO 5464 [egg-security] use dta middleware
+2019-07-29 15:54:45,793 INFO 5464 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 15:54:45,807 INFO 5464 [egg:core] dump config after load, 6ms
+2019-07-29 15:54:45,836 INFO 5464 [egg-watcher:application] watcher start success
+2019-07-29 15:54:46,125 INFO 5464 [egg:core] dump config after ready, 6ms
+2019-07-29 19:05:52,833 INFO 3975 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:05:52,879 INFO 3975 [egg-multipart] stream mode enable
+2019-07-29 19:05:53,339 INFO 3975 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:05:53,341 INFO 3975 [egg-security] use methodnoallow middleware
+2019-07-29 19:05:53,342 INFO 3975 [egg-security] use noopen middleware
+2019-07-29 19:05:53,342 INFO 3975 [egg-security] use nosniff middleware
+2019-07-29 19:05:53,343 INFO 3975 [egg-security] use xssProtection middleware
+2019-07-29 19:05:53,344 INFO 3975 [egg-security] use xframe middleware
+2019-07-29 19:05:53,345 INFO 3975 [egg-security] use dta middleware
+2019-07-29 19:05:53,345 INFO 3975 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:05:53,358 INFO 3975 [egg:core] dump config after load, 5ms
+2019-07-29 19:05:53,386 INFO 3975 [egg-watcher:application] watcher start success
+2019-07-29 19:05:53,640 INFO 3975 [egg:core] dump config after ready, 4ms
+2019-07-29 19:08:31,535 INFO 4092 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:08:31,575 INFO 4092 [egg-multipart] stream mode enable
+2019-07-29 19:08:32,180 INFO 4092 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:08:32,182 INFO 4092 [egg-security] use methodnoallow middleware
+2019-07-29 19:08:32,182 INFO 4092 [egg-security] use noopen middleware
+2019-07-29 19:08:32,183 INFO 4092 [egg-security] use nosniff middleware
+2019-07-29 19:08:32,183 INFO 4092 [egg-security] use xssProtection middleware
+2019-07-29 19:08:32,184 INFO 4092 [egg-security] use xframe middleware
+2019-07-29 19:08:32,184 INFO 4092 [egg-security] use dta middleware
+2019-07-29 19:08:32,184 INFO 4092 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:08:32,196 INFO 4092 [egg:core] dump config after load, 5ms
+2019-07-29 19:08:32,218 INFO 4092 [egg-watcher:application] watcher start success
+2019-07-29 19:08:32,455 INFO 4092 [egg:core] dump config after ready, 3ms
+2019-07-29 19:09:06,347 INFO 4150 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:09:06,398 INFO 4150 [egg-multipart] stream mode enable
+2019-07-29 19:09:07,103 INFO 4150 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:09:07,106 INFO 4150 [egg-security] use methodnoallow middleware
+2019-07-29 19:09:07,107 INFO 4150 [egg-security] use noopen middleware
+2019-07-29 19:09:07,107 INFO 4150 [egg-security] use nosniff middleware
+2019-07-29 19:09:07,108 INFO 4150 [egg-security] use xssProtection middleware
+2019-07-29 19:09:07,108 INFO 4150 [egg-security] use xframe middleware
+2019-07-29 19:09:07,109 INFO 4150 [egg-security] use dta middleware
+2019-07-29 19:09:07,109 INFO 4150 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:09:07,125 INFO 4150 [egg:core] dump config after load, 7ms
+2019-07-29 19:09:07,161 INFO 4150 [egg-watcher:application] watcher start success
+2019-07-29 19:09:07,355 INFO 4150 [egg:core] dump config after ready, 5ms
+2019-07-29 19:09:07,965 INFO 4159 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:09:08,014 INFO 4159 [egg-multipart] stream mode enable
+2019-07-29 19:09:08,464 INFO 4159 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:09:08,467 INFO 4159 [egg-security] use methodnoallow middleware
+2019-07-29 19:09:08,468 INFO 4159 [egg-security] use noopen middleware
+2019-07-29 19:09:08,468 INFO 4159 [egg-security] use nosniff middleware
+2019-07-29 19:09:08,469 INFO 4159 [egg-security] use xssProtection middleware
+2019-07-29 19:09:08,469 INFO 4159 [egg-security] use xframe middleware
+2019-07-29 19:09:08,469 INFO 4159 [egg-security] use dta middleware
+2019-07-29 19:09:08,469 INFO 4159 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:09:08,485 INFO 4159 [egg:core] dump config after load, 7ms
+2019-07-29 19:09:08,518 INFO 4159 [egg-watcher:application] watcher start success
+2019-07-29 19:09:08,684 INFO 4159 [egg:core] dump config after ready, 5ms
+2019-07-29 19:14:17,267 INFO 4376 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:14:17,304 INFO 4376 [egg-multipart] stream mode enable
+2019-07-29 19:14:17,686 INFO 4376 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:14:17,689 INFO 4376 [egg-security] use methodnoallow middleware
+2019-07-29 19:14:17,689 INFO 4376 [egg-security] use noopen middleware
+2019-07-29 19:14:17,690 INFO 4376 [egg-security] use nosniff middleware
+2019-07-29 19:14:17,690 INFO 4376 [egg-security] use xssProtection middleware
+2019-07-29 19:14:17,690 INFO 4376 [egg-security] use xframe middleware
+2019-07-29 19:14:17,691 INFO 4376 [egg-security] use dta middleware
+2019-07-29 19:14:17,691 INFO 4376 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:14:17,702 INFO 4376 [egg:core] dump config after load, 5ms
+2019-07-29 19:14:17,725 INFO 4376 [egg-watcher:application] watcher start success
+2019-07-29 19:14:17,895 INFO 4376 [egg:core] dump config after ready, 4ms
+2019-07-29 19:15:11,730 INFO 4409 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:15:11,772 INFO 4409 [egg-multipart] stream mode enable
+2019-07-29 19:15:12,375 INFO 4409 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:15:12,377 INFO 4409 [egg-security] use methodnoallow middleware
+2019-07-29 19:15:12,378 INFO 4409 [egg-security] use noopen middleware
+2019-07-29 19:15:12,378 INFO 4409 [egg-security] use nosniff middleware
+2019-07-29 19:15:12,379 INFO 4409 [egg-security] use xssProtection middleware
+2019-07-29 19:15:12,379 INFO 4409 [egg-security] use xframe middleware
+2019-07-29 19:15:12,380 INFO 4409 [egg-security] use dta middleware
+2019-07-29 19:15:12,380 INFO 4409 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:15:12,392 INFO 4409 [egg:core] dump config after load, 5ms
+2019-07-29 19:15:12,414 INFO 4409 [egg-watcher:application] watcher start success
+2019-07-29 19:15:12,583 INFO 4409 [egg:core] dump config after ready, 4ms
+2019-07-29 19:15:14,972 INFO 4419 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:15:15,010 INFO 4419 [egg-multipart] stream mode enable
+2019-07-29 19:15:15,359 INFO 4419 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:15:15,361 INFO 4419 [egg-security] use methodnoallow middleware
+2019-07-29 19:15:15,361 INFO 4419 [egg-security] use noopen middleware
+2019-07-29 19:15:15,361 INFO 4419 [egg-security] use nosniff middleware
+2019-07-29 19:15:15,361 INFO 4419 [egg-security] use xssProtection middleware
+2019-07-29 19:15:15,361 INFO 4419 [egg-security] use xframe middleware
+2019-07-29 19:15:15,362 INFO 4419 [egg-security] use dta middleware
+2019-07-29 19:15:15,362 INFO 4419 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:15:15,371 INFO 4419 [egg:core] dump config after load, 4ms
+2019-07-29 19:15:15,392 INFO 4419 [egg-watcher:application] watcher start success
+2019-07-29 19:15:15,558 INFO 4419 [egg:core] dump config after ready, 4ms
+2019-07-29 19:15:35,855 INFO 4431 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:15:35,896 INFO 4431 [egg-multipart] stream mode enable
+2019-07-29 19:15:36,265 INFO 4431 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:15:36,267 INFO 4431 [egg-security] use methodnoallow middleware
+2019-07-29 19:15:36,267 INFO 4431 [egg-security] use noopen middleware
+2019-07-29 19:15:36,267 INFO 4431 [egg-security] use nosniff middleware
+2019-07-29 19:15:36,268 INFO 4431 [egg-security] use xssProtection middleware
+2019-07-29 19:15:36,268 INFO 4431 [egg-security] use xframe middleware
+2019-07-29 19:15:36,268 INFO 4431 [egg-security] use dta middleware
+2019-07-29 19:15:36,268 INFO 4431 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:15:36,277 INFO 4431 [egg:core] dump config after load, 4ms
+2019-07-29 19:15:36,298 INFO 4431 [egg-watcher:application] watcher start success
+2019-07-29 19:15:36,478 INFO 4431 [egg:core] dump config after ready, 4ms
+2019-07-29 19:16:52,764 INFO 4477 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:16:52,805 INFO 4477 [egg-multipart] stream mode enable
+2019-07-29 19:16:53,513 INFO 4477 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:16:53,518 INFO 4477 [egg-security] use methodnoallow middleware
+2019-07-29 19:16:53,520 INFO 4477 [egg-security] use noopen middleware
+2019-07-29 19:16:53,520 INFO 4477 [egg-security] use nosniff middleware
+2019-07-29 19:16:53,521 INFO 4477 [egg-security] use xssProtection middleware
+2019-07-29 19:16:53,521 INFO 4477 [egg-security] use xframe middleware
+2019-07-29 19:16:53,522 INFO 4477 [egg-security] use dta middleware
+2019-07-29 19:16:53,522 INFO 4477 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:16:53,538 INFO 4477 [egg:core] dump config after load, 7ms
+2019-07-29 19:16:53,587 INFO 4477 [egg-watcher:application] watcher start success
+2019-07-29 19:16:53,782 INFO 4477 [egg:core] dump config after ready, 5ms
+2019-07-29 19:19:10,613 INFO 4538 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:19:10,654 INFO 4538 [egg-multipart] stream mode enable
+2019-07-29 19:19:11,250 INFO 4538 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:19:11,252 INFO 4538 [egg-security] use methodnoallow middleware
+2019-07-29 19:19:11,253 INFO 4538 [egg-security] use noopen middleware
+2019-07-29 19:19:11,253 INFO 4538 [egg-security] use nosniff middleware
+2019-07-29 19:19:11,254 INFO 4538 [egg-security] use xssProtection middleware
+2019-07-29 19:19:11,254 INFO 4538 [egg-security] use xframe middleware
+2019-07-29 19:19:11,255 INFO 4538 [egg-security] use dta middleware
+2019-07-29 19:19:11,255 INFO 4538 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:19:11,266 INFO 4538 [egg:core] dump config after load, 6ms
+2019-07-29 19:19:11,286 INFO 4538 [egg-watcher:application] watcher start success
+2019-07-29 19:19:11,800 INFO 4538 [egg:core] dump config after ready, 6ms
+2019-07-29 19:20:13,129 INFO 4579 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:20:13,167 INFO 4579 [egg-multipart] stream mode enable
+2019-07-29 19:20:13,533 INFO 4579 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:20:13,535 INFO 4579 [egg-security] use methodnoallow middleware
+2019-07-29 19:20:13,535 INFO 4579 [egg-security] use noopen middleware
+2019-07-29 19:20:13,536 INFO 4579 [egg-security] use nosniff middleware
+2019-07-29 19:20:13,536 INFO 4579 [egg-security] use xssProtection middleware
+2019-07-29 19:20:13,537 INFO 4579 [egg-security] use xframe middleware
+2019-07-29 19:20:13,537 INFO 4579 [egg-security] use dta middleware
+2019-07-29 19:20:13,537 INFO 4579 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:20:13,549 INFO 4579 [egg:core] dump config after load, 5ms
+2019-07-29 19:20:13,572 INFO 4579 [egg-watcher:application] watcher start success
+2019-07-29 19:20:13,728 INFO 4579 [egg:core] dump config after ready, 3ms
+2019-07-29 19:22:18,457 INFO 4614 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:22:18,499 INFO 4614 [egg-multipart] stream mode enable
+2019-07-29 19:22:19,105 INFO 4614 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:22:19,108 INFO 4614 [egg-security] use methodnoallow middleware
+2019-07-29 19:22:19,108 INFO 4614 [egg-security] use noopen middleware
+2019-07-29 19:22:19,109 INFO 4614 [egg-security] use nosniff middleware
+2019-07-29 19:22:19,109 INFO 4614 [egg-security] use xssProtection middleware
+2019-07-29 19:22:19,110 INFO 4614 [egg-security] use xframe middleware
+2019-07-29 19:22:19,110 INFO 4614 [egg-security] use dta middleware
+2019-07-29 19:22:19,110 INFO 4614 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:22:19,122 INFO 4614 [egg:core] dump config after load, 5ms
+2019-07-29 19:22:19,144 INFO 4614 [egg-watcher:application] watcher start success
+2019-07-29 19:22:19,421 INFO 4614 [egg:core] dump config after ready, 4ms
+2019-07-29 19:23:31,255 INFO 4693 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:23:31,298 INFO 4693 [egg-multipart] stream mode enable
+2019-07-29 19:23:31,937 INFO 4693 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:23:31,940 INFO 4693 [egg-security] use methodnoallow middleware
+2019-07-29 19:23:31,941 INFO 4693 [egg-security] use noopen middleware
+2019-07-29 19:23:31,941 INFO 4693 [egg-security] use nosniff middleware
+2019-07-29 19:23:31,942 INFO 4693 [egg-security] use xssProtection middleware
+2019-07-29 19:23:31,942 INFO 4693 [egg-security] use xframe middleware
+2019-07-29 19:23:31,943 INFO 4693 [egg-security] use dta middleware
+2019-07-29 19:23:31,943 INFO 4693 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:23:31,955 INFO 4693 [egg:core] dump config after load, 5ms
+2019-07-29 19:23:31,977 INFO 4693 [egg-watcher:application] watcher start success
+2019-07-29 19:23:32,151 INFO 4693 [egg:core] dump config after ready, 9ms
+2019-07-29 19:23:32,608 INFO 4695 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:23:32,644 INFO 4695 [egg-multipart] stream mode enable
+2019-07-29 19:23:33,008 INFO 4695 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:23:33,010 INFO 4695 [egg-security] use methodnoallow middleware
+2019-07-29 19:23:33,011 INFO 4695 [egg-security] use noopen middleware
+2019-07-29 19:23:33,011 INFO 4695 [egg-security] use nosniff middleware
+2019-07-29 19:23:33,011 INFO 4695 [egg-security] use xssProtection middleware
+2019-07-29 19:23:33,011 INFO 4695 [egg-security] use xframe middleware
+2019-07-29 19:23:33,011 INFO 4695 [egg-security] use dta middleware
+2019-07-29 19:23:33,011 INFO 4695 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:23:33,020 INFO 4695 [egg:core] dump config after load, 4ms
+2019-07-29 19:23:33,045 INFO 4695 [egg-watcher:application] watcher start success
+2019-07-29 19:23:33,207 INFO 4695 [egg:core] dump config after ready, 3ms
+2019-07-29 19:23:52,760 INFO 4710 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:23:52,804 INFO 4710 [egg-multipart] stream mode enable
+2019-07-29 19:23:53,401 INFO 4710 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:23:53,403 INFO 4710 [egg-security] use methodnoallow middleware
+2019-07-29 19:23:53,404 INFO 4710 [egg-security] use noopen middleware
+2019-07-29 19:23:53,404 INFO 4710 [egg-security] use nosniff middleware
+2019-07-29 19:23:53,405 INFO 4710 [egg-security] use xssProtection middleware
+2019-07-29 19:23:53,405 INFO 4710 [egg-security] use xframe middleware
+2019-07-29 19:23:53,405 INFO 4710 [egg-security] use dta middleware
+2019-07-29 19:23:53,405 INFO 4710 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:23:53,416 INFO 4710 [egg:core] dump config after load, 4ms
+2019-07-29 19:23:53,439 INFO 4710 [egg-watcher:application] watcher start success
+2019-07-29 19:23:53,555 INFO 4710 [egg:core] dump config after ready, 4ms
+2019-07-29 19:24:07,951 INFO 4731 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:24:07,991 INFO 4731 [egg-multipart] stream mode enable
+2019-07-29 19:24:08,365 INFO 4731 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:24:08,367 INFO 4731 [egg-security] use methodnoallow middleware
+2019-07-29 19:24:08,367 INFO 4731 [egg-security] use noopen middleware
+2019-07-29 19:24:08,367 INFO 4731 [egg-security] use nosniff middleware
+2019-07-29 19:24:08,368 INFO 4731 [egg-security] use xssProtection middleware
+2019-07-29 19:24:08,368 INFO 4731 [egg-security] use xframe middleware
+2019-07-29 19:24:08,368 INFO 4731 [egg-security] use dta middleware
+2019-07-29 19:24:08,368 INFO 4731 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:24:08,376 INFO 4731 [egg:core] dump config after load, 4ms
+2019-07-29 19:24:08,400 INFO 4731 [egg-watcher:application] watcher start success
+2019-07-29 19:24:08,567 INFO 4731 [egg:core] dump config after ready, 3ms
+2019-07-29 19:59:28,560 INFO 5615 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 19:59:28,598 INFO 5615 [egg-multipart] stream mode enable
+2019-07-29 19:59:29,231 INFO 5615 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 19:59:29,234 INFO 5615 [egg-security] use methodnoallow middleware
+2019-07-29 19:59:29,234 INFO 5615 [egg-security] use noopen middleware
+2019-07-29 19:59:29,235 INFO 5615 [egg-security] use nosniff middleware
+2019-07-29 19:59:29,236 INFO 5615 [egg-security] use xssProtection middleware
+2019-07-29 19:59:29,236 INFO 5615 [egg-security] use xframe middleware
+2019-07-29 19:59:29,237 INFO 5615 [egg-security] use dta middleware
+2019-07-29 19:59:29,237 INFO 5615 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 19:59:29,248 INFO 5615 [egg:core] dump config after load, 5ms
+2019-07-29 19:59:29,270 INFO 5615 [egg-watcher:application] watcher start success
+2019-07-29 19:59:29,551 INFO 5615 [egg:core] dump config after ready, 5ms
+2019-07-29 20:00:04,202 INFO 5646 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:00:04,246 INFO 5646 [egg-multipart] stream mode enable
+2019-07-29 20:00:04,864 INFO 5646 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:00:04,866 INFO 5646 [egg-security] use methodnoallow middleware
+2019-07-29 20:00:04,867 INFO 5646 [egg-security] use noopen middleware
+2019-07-29 20:00:04,868 INFO 5646 [egg-security] use nosniff middleware
+2019-07-29 20:00:04,868 INFO 5646 [egg-security] use xssProtection middleware
+2019-07-29 20:00:04,868 INFO 5646 [egg-security] use xframe middleware
+2019-07-29 20:00:04,869 INFO 5646 [egg-security] use dta middleware
+2019-07-29 20:00:04,869 INFO 5646 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:00:04,880 INFO 5646 [egg:core] dump config after load, 5ms
+2019-07-29 20:00:04,902 INFO 5646 [egg-watcher:application] watcher start success
+2019-07-29 20:00:05,086 INFO 5646 [egg:core] dump config after ready, 4ms
+2019-07-29 20:00:06,321 INFO 5657 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:00:06,363 INFO 5657 [egg-multipart] stream mode enable
+2019-07-29 20:00:06,704 INFO 5657 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:00:06,706 INFO 5657 [egg-security] use methodnoallow middleware
+2019-07-29 20:00:06,706 INFO 5657 [egg-security] use noopen middleware
+2019-07-29 20:00:06,707 INFO 5657 [egg-security] use nosniff middleware
+2019-07-29 20:00:06,707 INFO 5657 [egg-security] use xssProtection middleware
+2019-07-29 20:00:06,707 INFO 5657 [egg-security] use xframe middleware
+2019-07-29 20:00:06,707 INFO 5657 [egg-security] use dta middleware
+2019-07-29 20:00:06,707 INFO 5657 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:00:06,715 INFO 5657 [egg:core] dump config after load, 3ms
+2019-07-29 20:00:06,737 INFO 5657 [egg-watcher:application] watcher start success
+2019-07-29 20:00:06,900 INFO 5657 [egg:core] dump config after ready, 3ms
+2019-07-29 20:00:24,377 INFO 5679 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:00:24,416 INFO 5679 [egg-multipart] stream mode enable
+2019-07-29 20:00:24,774 INFO 5679 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:00:24,776 INFO 5679 [egg-security] use methodnoallow middleware
+2019-07-29 20:00:24,776 INFO 5679 [egg-security] use noopen middleware
+2019-07-29 20:00:24,776 INFO 5679 [egg-security] use nosniff middleware
+2019-07-29 20:00:24,777 INFO 5679 [egg-security] use xssProtection middleware
+2019-07-29 20:00:24,777 INFO 5679 [egg-security] use xframe middleware
+2019-07-29 20:00:24,777 INFO 5679 [egg-security] use dta middleware
+2019-07-29 20:00:24,777 INFO 5679 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:00:24,785 INFO 5679 [egg:core] dump config after load, 4ms
+2019-07-29 20:00:24,810 INFO 5679 [egg-watcher:application] watcher start success
+2019-07-29 20:00:24,986 INFO 5679 [egg:core] dump config after ready, 3ms
+2019-07-29 20:09:16,524 INFO 5931 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:09:16,567 INFO 5931 [egg-multipart] stream mode enable
+2019-07-29 20:09:17,190 INFO 5931 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:09:17,193 INFO 5931 [egg-security] use methodnoallow middleware
+2019-07-29 20:09:17,194 INFO 5931 [egg-security] use noopen middleware
+2019-07-29 20:09:17,194 INFO 5931 [egg-security] use nosniff middleware
+2019-07-29 20:09:17,194 INFO 5931 [egg-security] use xssProtection middleware
+2019-07-29 20:09:17,195 INFO 5931 [egg-security] use xframe middleware
+2019-07-29 20:09:17,195 INFO 5931 [egg-security] use dta middleware
+2019-07-29 20:09:17,195 INFO 5931 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:09:17,206 INFO 5931 [egg:core] dump config after load, 5ms
+2019-07-29 20:09:17,228 INFO 5931 [egg-watcher:application] watcher start success
+2019-07-29 20:09:17,596 INFO 5931 [egg:core] dump config after ready, 4ms
+2019-07-29 20:10:29,060 INFO 5979 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:10:29,106 INFO 5979 [egg-multipart] stream mode enable
+2019-07-29 20:10:29,727 INFO 5979 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:10:29,729 INFO 5979 [egg-security] use methodnoallow middleware
+2019-07-29 20:10:29,730 INFO 5979 [egg-security] use noopen middleware
+2019-07-29 20:10:29,730 INFO 5979 [egg-security] use nosniff middleware
+2019-07-29 20:10:29,731 INFO 5979 [egg-security] use xssProtection middleware
+2019-07-29 20:10:29,731 INFO 5979 [egg-security] use xframe middleware
+2019-07-29 20:10:29,732 INFO 5979 [egg-security] use dta middleware
+2019-07-29 20:10:29,732 INFO 5979 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:10:29,744 INFO 5979 [egg:core] dump config after load, 5ms
+2019-07-29 20:10:29,768 INFO 5979 [egg-watcher:application] watcher start success
+2019-07-29 20:10:30,005 INFO 5979 [egg:core] dump config after ready, 4ms
+2019-07-29 20:11:18,874 INFO 6014 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:11:18,917 INFO 6014 [egg-multipart] stream mode enable
+2019-07-29 20:11:19,544 INFO 6014 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:11:19,546 INFO 6014 [egg-security] use methodnoallow middleware
+2019-07-29 20:11:19,546 INFO 6014 [egg-security] use noopen middleware
+2019-07-29 20:11:19,547 INFO 6014 [egg-security] use nosniff middleware
+2019-07-29 20:11:19,547 INFO 6014 [egg-security] use xssProtection middleware
+2019-07-29 20:11:19,548 INFO 6014 [egg-security] use xframe middleware
+2019-07-29 20:11:19,548 INFO 6014 [egg-security] use dta middleware
+2019-07-29 20:11:19,548 INFO 6014 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:11:19,560 INFO 6014 [egg:core] dump config after load, 4ms
+2019-07-29 20:11:19,585 INFO 6014 [egg-watcher:application] watcher start success
+2019-07-29 20:11:19,757 INFO 6014 [egg:core] dump config after ready, 4ms
+2019-07-29 20:13:52,082 INFO 6116 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:13:52,123 INFO 6116 [egg-multipart] stream mode enable
+2019-07-29 20:13:52,731 INFO 6116 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:13:52,733 INFO 6116 [egg-security] use methodnoallow middleware
+2019-07-29 20:13:52,734 INFO 6116 [egg-security] use noopen middleware
+2019-07-29 20:13:52,734 INFO 6116 [egg-security] use nosniff middleware
+2019-07-29 20:13:52,735 INFO 6116 [egg-security] use xssProtection middleware
+2019-07-29 20:13:52,735 INFO 6116 [egg-security] use xframe middleware
+2019-07-29 20:13:52,735 INFO 6116 [egg-security] use dta middleware
+2019-07-29 20:13:52,735 INFO 6116 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:13:52,746 INFO 6116 [egg:core] dump config after load, 4ms
+2019-07-29 20:13:52,766 INFO 6116 [egg-watcher:application] watcher start success
+2019-07-29 20:13:52,993 INFO 6116 [egg:core] dump config after ready, 4ms
+2019-07-29 20:14:08,542 INFO 6131 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:14:08,581 INFO 6131 [egg-multipart] stream mode enable
+2019-07-29 20:14:08,935 INFO 6131 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:14:08,937 INFO 6131 [egg-security] use methodnoallow middleware
+2019-07-29 20:14:08,938 INFO 6131 [egg-security] use noopen middleware
+2019-07-29 20:14:08,938 INFO 6131 [egg-security] use nosniff middleware
+2019-07-29 20:14:08,938 INFO 6131 [egg-security] use xssProtection middleware
+2019-07-29 20:14:08,938 INFO 6131 [egg-security] use xframe middleware
+2019-07-29 20:14:08,939 INFO 6131 [egg-security] use dta middleware
+2019-07-29 20:14:08,939 INFO 6131 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:14:08,949 INFO 6131 [egg:core] dump config after load, 4ms
+2019-07-29 20:14:08,974 INFO 6131 [egg-watcher:application] watcher start success
+2019-07-29 20:14:09,116 INFO 6131 [egg:core] dump config after ready, 3ms
+2019-07-29 20:14:35,358 INFO 6152 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:14:35,399 INFO 6152 [egg-multipart] stream mode enable
+2019-07-29 20:14:35,775 INFO 6152 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:14:35,777 INFO 6152 [egg-security] use methodnoallow middleware
+2019-07-29 20:14:35,777 INFO 6152 [egg-security] use noopen middleware
+2019-07-29 20:14:35,777 INFO 6152 [egg-security] use nosniff middleware
+2019-07-29 20:14:35,778 INFO 6152 [egg-security] use xssProtection middleware
+2019-07-29 20:14:35,778 INFO 6152 [egg-security] use xframe middleware
+2019-07-29 20:14:35,778 INFO 6152 [egg-security] use dta middleware
+2019-07-29 20:14:35,778 INFO 6152 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:14:35,787 INFO 6152 [egg:core] dump config after load, 4ms
+2019-07-29 20:14:35,812 INFO 6152 [egg-watcher:application] watcher start success
+2019-07-29 20:14:36,004 INFO 6152 [egg:core] dump config after ready, 4ms
+2019-07-29 20:34:52,945 INFO 6627 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:34:52,988 INFO 6627 [egg-multipart] stream mode enable
+2019-07-29 20:34:53,613 INFO 6627 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:34:53,615 INFO 6627 [egg-security] use methodnoallow middleware
+2019-07-29 20:34:53,615 INFO 6627 [egg-security] use noopen middleware
+2019-07-29 20:34:53,616 INFO 6627 [egg-security] use nosniff middleware
+2019-07-29 20:34:53,617 INFO 6627 [egg-security] use xssProtection middleware
+2019-07-29 20:34:53,617 INFO 6627 [egg-security] use xframe middleware
+2019-07-29 20:34:53,617 INFO 6627 [egg-security] use dta middleware
+2019-07-29 20:34:53,617 INFO 6627 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:34:53,629 INFO 6627 [egg:core] dump config after load, 5ms
+2019-07-29 20:34:53,656 INFO 6627 [egg-watcher:application] watcher start success
+2019-07-29 20:34:53,895 INFO 6627 [egg:core] dump config after ready, 4ms
+2019-07-29 20:48:25,675 INFO 6839 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:48:25,719 INFO 6839 [egg-multipart] stream mode enable
+2019-07-29 20:48:26,320 INFO 6839 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:48:26,322 INFO 6839 [egg-security] use methodnoallow middleware
+2019-07-29 20:48:26,322 INFO 6839 [egg-security] use noopen middleware
+2019-07-29 20:48:26,323 INFO 6839 [egg-security] use nosniff middleware
+2019-07-29 20:48:26,323 INFO 6839 [egg-security] use xssProtection middleware
+2019-07-29 20:48:26,324 INFO 6839 [egg-security] use xframe middleware
+2019-07-29 20:48:26,324 INFO 6839 [egg-security] use dta middleware
+2019-07-29 20:48:26,324 INFO 6839 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:48:26,335 INFO 6839 [egg:core] dump config after load, 4ms
+2019-07-29 20:48:26,356 INFO 6839 [egg-watcher:application] watcher start success
+2019-07-29 20:48:26,597 INFO 6839 [egg:core] dump config after ready, 5ms
+2019-07-29 20:49:20,345 INFO 6872 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:49:20,389 INFO 6872 [egg-multipart] stream mode enable
+2019-07-29 20:49:21,002 INFO 6872 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:49:21,004 INFO 6872 [egg-security] use methodnoallow middleware
+2019-07-29 20:49:21,005 INFO 6872 [egg-security] use noopen middleware
+2019-07-29 20:49:21,005 INFO 6872 [egg-security] use nosniff middleware
+2019-07-29 20:49:21,006 INFO 6872 [egg-security] use xssProtection middleware
+2019-07-29 20:49:21,006 INFO 6872 [egg-security] use xframe middleware
+2019-07-29 20:49:21,007 INFO 6872 [egg-security] use dta middleware
+2019-07-29 20:49:21,007 INFO 6872 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:49:21,018 INFO 6872 [egg:core] dump config after load, 5ms
+2019-07-29 20:49:21,042 INFO 6872 [egg-watcher:application] watcher start success
+2019-07-29 20:49:21,224 INFO 6872 [egg:core] dump config after ready, 3ms
+2019-07-29 20:56:30,854 INFO 7023 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:56:30,897 INFO 7023 [egg-multipart] stream mode enable
+2019-07-29 20:56:31,489 INFO 7023 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:56:31,491 INFO 7023 [egg-security] use methodnoallow middleware
+2019-07-29 20:56:31,492 INFO 7023 [egg-security] use noopen middleware
+2019-07-29 20:56:31,492 INFO 7023 [egg-security] use nosniff middleware
+2019-07-29 20:56:31,493 INFO 7023 [egg-security] use xssProtection middleware
+2019-07-29 20:56:31,493 INFO 7023 [egg-security] use xframe middleware
+2019-07-29 20:56:31,493 INFO 7023 [egg-security] use dta middleware
+2019-07-29 20:56:31,493 INFO 7023 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:56:31,505 INFO 7023 [egg:core] dump config after load, 5ms
+2019-07-29 20:56:31,531 INFO 7023 [egg-watcher:application] watcher start success
+2019-07-29 20:56:31,853 INFO 7023 [egg:core] dump config after ready, 4ms
+2019-07-29 20:56:47,040 INFO 7057 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 20:56:47,083 INFO 7057 [egg-multipart] stream mode enable
+2019-07-29 20:56:47,451 INFO 7057 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 20:56:47,453 INFO 7057 [egg-security] use methodnoallow middleware
+2019-07-29 20:56:47,454 INFO 7057 [egg-security] use noopen middleware
+2019-07-29 20:56:47,454 INFO 7057 [egg-security] use nosniff middleware
+2019-07-29 20:56:47,454 INFO 7057 [egg-security] use xssProtection middleware
+2019-07-29 20:56:47,454 INFO 7057 [egg-security] use xframe middleware
+2019-07-29 20:56:47,454 INFO 7057 [egg-security] use dta middleware
+2019-07-29 20:56:47,454 INFO 7057 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 20:56:47,463 INFO 7057 [egg:core] dump config after load, 4ms
+2019-07-29 20:56:47,486 INFO 7057 [egg-watcher:application] watcher start success
+2019-07-29 20:56:47,665 INFO 7057 [egg:core] dump config after ready, 4ms
+2019-07-29 21:01:50,961 INFO 7177 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 21:01:50,999 INFO 7177 [egg-multipart] stream mode enable
+2019-07-29 21:01:51,629 INFO 7177 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 21:01:51,632 INFO 7177 [egg-security] use methodnoallow middleware
+2019-07-29 21:01:51,632 INFO 7177 [egg-security] use noopen middleware
+2019-07-29 21:01:51,633 INFO 7177 [egg-security] use nosniff middleware
+2019-07-29 21:01:51,633 INFO 7177 [egg-security] use xssProtection middleware
+2019-07-29 21:01:51,634 INFO 7177 [egg-security] use xframe middleware
+2019-07-29 21:01:51,634 INFO 7177 [egg-security] use dta middleware
+2019-07-29 21:01:51,634 INFO 7177 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 21:01:51,645 INFO 7177 [egg:core] dump config after load, 4ms
+2019-07-29 21:01:51,666 INFO 7177 [egg-watcher:application] watcher start success
+2019-07-29 21:01:51,859 INFO 7177 [egg:core] dump config after ready, 5ms
+2019-07-29 21:02:27,759 INFO 7204 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 21:02:27,798 INFO 7204 [egg-multipart] stream mode enable
+2019-07-29 21:02:28,430 INFO 7204 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 21:02:28,433 INFO 7204 [egg-security] use methodnoallow middleware
+2019-07-29 21:02:28,434 INFO 7204 [egg-security] use noopen middleware
+2019-07-29 21:02:28,434 INFO 7204 [egg-security] use nosniff middleware
+2019-07-29 21:02:28,435 INFO 7204 [egg-security] use xssProtection middleware
+2019-07-29 21:02:28,435 INFO 7204 [egg-security] use xframe middleware
+2019-07-29 21:02:28,436 INFO 7204 [egg-security] use dta middleware
+2019-07-29 21:02:28,436 INFO 7204 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 21:02:28,447 INFO 7204 [egg:core] dump config after load, 4ms
+2019-07-29 21:02:28,471 INFO 7204 [egg-watcher:application] watcher start success
+2019-07-29 21:02:28,638 INFO 7204 [egg:core] dump config after ready, 4ms
+2019-07-29 21:04:03,589 INFO 7244 [egg:logger] init all loggers with options: {"dir":"/Users/coco/project/support/performance-node/logs/performance-node","encoding":"utf8","env":"local","level":"DEBUG","consoleLevel":"DEBUG","disableConsoleAfterReady":false,"outputJSON":true,"buffer":true,"appLogName":"performance-node-web.log","coreLogName":"egg-web.log","agentLogName":"egg-agent.log","errorLogName":"common-error.log","coreLogger":{"consoleLevel":"WARN"},"allowDebugAtProd":false,"type":"application"}
+2019-07-29 21:04:03,632 INFO 7244 [egg-multipart] stream mode enable
+2019-07-29 21:04:04,307 INFO 7244 [egg-static] starting static serve / -> /Users/coco/project/support/performance-node/app/public
+2019-07-29 21:04:04,309 INFO 7244 [egg-security] use methodnoallow middleware
+2019-07-29 21:04:04,309 INFO 7244 [egg-security] use noopen middleware
+2019-07-29 21:04:04,310 INFO 7244 [egg-security] use nosniff middleware
+2019-07-29 21:04:04,310 INFO 7244 [egg-security] use xssProtection middleware
+2019-07-29 21:04:04,311 INFO 7244 [egg-security] use xframe middleware
+2019-07-29 21:04:04,311 INFO 7244 [egg-security] use dta middleware
+2019-07-29 21:04:04,311 INFO 7244 [egg-security] compose 6 middlewares into one security middleware
+2019-07-29 21:04:04,322 INFO 7244 [egg:core] dump config after load, 4ms
+2019-07-29 21:04:04,347 INFO 7244 [egg-watcher:application] watcher start success
+2019-07-29 21:04:04,780 INFO 7244 [egg:core] dump config after ready, 4ms
+2019-07-29 23:59:59,958 INFO 7244 [egg-logrotator] clean all log before 31 days
+2019-07-30 00:00:00,965 INFO 7244 [egg-logrotator] broadcast log-reload
+2019-07-30 00:00:00,965 INFO 7244 [egg-logrotator] rotate files success by DayRotator, files ["/Users/coco/project/support/performance-node/logs/performance-node/common-error.log -> /Users/coco/project/support/performance-node/logs/performance-node/common-error.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/common-error.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/common-error.json.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.log -> /Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/performance-node-web.json.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/egg-web.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-web.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/egg-web.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-web.json.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.json.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-schedule.json.log.2019-07-29","/Users/coco/project/support/performance-node/logs/performance-node/egg-agent.log -> /Users/coco/project/support/performance-node/logs/performance-node/egg-agent.log.2019-07-29"]

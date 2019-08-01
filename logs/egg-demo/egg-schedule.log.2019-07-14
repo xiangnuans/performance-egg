@@ -1,0 +1,24 @@
+2019-07-14 00:00:00,955 DEBUG 3699 [Job#15630336009343759548609964771] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js finish event received by agent from worker#7733
+2019-07-14 04:29:59,905 DEBUG 3699 [Job#15630497999053921538641514321] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js triggered, send random by agent
+2019-07-14 04:29:59,916 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js next time will execute after 86400088ms at 2019-07-15 04:30:00.004
+2019-07-14 04:29:59,926 DEBUG 3699 [Job#15630497999053921538641514321] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js finish event received by agent from worker#7733
+2019-07-14 04:29:59,916 DEBUG 7733 [Job#15630497999053921538641514321] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js task received by app
+2019-07-14 04:29:59,916 INFO 7733 [Job#15630497999053921538641514321] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js executing by app
+2019-07-14 04:29:59,924 INFO 7733 [Job#15630497999053921538641514321] /Users/coco/project/support/performance-node/node_modules/egg-multipart/app/schedule/clean_tmpdir.js execute succeed, used 7ms
+2019-07-14 23:58:59,847 DEBUG 3699 [Job#15631199398464622939481779232] /Users/coco/project/support/performance-node/app/schedule/pk.js triggered, send all by agent
+2019-07-14 23:58:59,855 INFO 3699 [Timer] /Users/coco/project/support/performance-node/app/schedule/pk.js next time will execute after 86400147ms at 2019-07-15 23:59:00.002
+2019-07-14 23:58:59,859 DEBUG 3699 [Job#15631199398464622939481779232] /Users/coco/project/support/performance-node/app/schedule/pk.js finish event received by agent from worker#7733
+2019-07-14 23:58:59,857 DEBUG 7733 [Job#15631199398464622939481779232] /Users/coco/project/support/performance-node/app/schedule/pk.js task received by app
+2019-07-14 23:58:59,857 INFO 7733 [Job#15631199398464622939481779232] /Users/coco/project/support/performance-node/app/schedule/pk.js executing by app
+2019-07-14 23:58:59,858 INFO 7733 [Job#15631199398464622939481779232] /Users/coco/project/support/performance-node/app/schedule/pk.js execute succeed, used 1ms
+2019-07-14 23:59:59,840 DEBUG 3699 [Job#15631199998344623539359141372] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js triggered, send random by agent
+2019-07-14 23:59:59,842 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js next time will execute after 86400160ms at 2019-07-16 00:00:00.002
+2019-07-14 23:59:59,845 DEBUG 3699 [Job#15631199998344623539359141372] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js finish event received by agent from worker#7733
+2019-07-14 23:59:59,840 DEBUG 7733 [Job#15631199998344623539359141372] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js task received by app
+2019-07-14 23:59:59,840 INFO 7733 [Job#15631199998344623539359141372] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js executing by app
+2019-07-14 23:59:59,844 INFO 7733 [Job#15631199998344623539359141372] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/clean_log.js execute succeed, used 4ms
+2019-07-15 00:00:00,830 DEBUG 7733 [Job#15631200008274623549287085662] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js task received by app
+2019-07-15 00:00:00,830 INFO 7733 [Job#15631200008274623549287085662] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js executing by app
+2019-07-15 00:00:00,833 INFO 7733 [Job#15631200008274623549287085662] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js execute succeed, used 3ms
+2019-07-15 00:00:00,827 DEBUG 3699 [Job#15631200008274623549287085662] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js triggered, send random by agent
+2019-07-15 00:00:00,829 INFO 3699 [Timer] /Users/coco/project/support/performance-node/node_modules/egg-logrotator/app/schedule/rotate_by_file.js next time will execute after 86400173ms at 2019-07-16 00:00:01.002

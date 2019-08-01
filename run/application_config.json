@@ -1,0 +1,688 @@
+{
+  "config": {
+    "session": {
+      "maxAge": 86400000,
+      "key": "EGG_SESS",
+      "httpOnly": true,
+      "encrypt": true,
+      "overwrite": true,
+      "signed": true,
+      "autoCommit": true,
+      "encode": "<Function encode>",
+      "decode": "<Function decode>",
+      "genid": "<Function v4>"
+    },
+    "security": {
+      "domainWhiteList": [],
+      "protocolWhiteList": [],
+      "defaultMiddleware": "csrf,hsts,methodnoallow,noopen,nosniff,csp,xssProtection,xframe,dta",
+      "csrf": false,
+      "xframe": {
+        "enable": true,
+        "value": "SAMEORIGIN",
+        "matching": "<Function anonymous>"
+      },
+      "hsts": {
+        "enable": false,
+        "maxAge": 31536000,
+        "includeSubdomains": false
+      },
+      "dta": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "methodnoallow": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "noopen": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "nosniff": {
+        "enable": true,
+        "matching": "<Function anonymous>"
+      },
+      "referrerPolicy": {
+        "enable": false,
+        "value": "no-referrer-when-downgrade"
+      },
+      "xssProtection": {
+        "enable": true,
+        "value": "1; mode=block",
+        "matching": "<Function anonymous>"
+      },
+      "csp": {
+        "enable": false,
+        "policy": {}
+      },
+      "ssrf": {
+        "ipBlackList": null,
+        "checkAddress": null
+      },
+      "_protocolWhiteListSet": "<Set>"
+    },
+    "helper": {
+      "shtml": {}
+    },
+    "jsonp": {
+      "limit": 50,
+      "callback": [
+        "_callback",
+        "callback"
+      ],
+      "csrf": false
+    },
+    "onerror": {
+      "errorPageUrl": "",
+      "appErrorFilter": null,
+      "templatePath": "/Users/coco/project/support/performance-node/node_modules/egg-onerror/lib/onerror_page.mustache"
+    },
+    "i18n": {
+      "defaultLocale": "en_US",
+      "dirs": [
+        "/Users/coco/project/support/performance-node/node_modules/egg-session/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-security/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-jsonp/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-onerror/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-i18n/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-watcher/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-schedule/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-multipart/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-development/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-logrotator/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-static/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-view/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-sequelize/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-joi/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-view-assets/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks/config/locales",
+        "/Users/coco/project/support/performance-node/node_modules/egg/config/locales",
+        "/Users/coco/project/support/performance-node/config/locales"
+      ],
+      "queryField": "locale",
+      "cookieField": "locale",
+      "cookieDomain": "",
+      "cookieMaxAge": "1y",
+      "functionName": "__"
+    },
+    "watcher": {
+      "type": "development",
+      "eventSources": {
+        "default": "/Users/coco/project/support/performance-node/node_modules/egg-watcher/lib/event-sources/default",
+        "development": "/Users/coco/project/support/performance-node/node_modules/egg-watcher/lib/event-sources/development"
+      }
+    },
+    "customLogger": {
+      "scheduleLogger": {
+        "consoleLevel": "NONE",
+        "file": "egg-schedule.log"
+      }
+    },
+    "schedule": {
+      "directory": []
+    },
+    "multipart": {
+      "mode": "stream",
+      "autoFields": false,
+      "defaultCharset": "utf8",
+      "fieldNameSize": 100,
+      "fieldSize": 102400,
+      "fields": 10,
+      "fileSize": 10485760,
+      "files": 10,
+      "fileExtensions": [],
+      "whitelist": null,
+      "tmpdir": "/var/folders/fn/cr321dmx1z5d8n8tmln6bshm0000gn/T/egg-multipart-tmp/performance-node",
+      "cleanSchedule": {
+        "cron": "0 30 4 * * *"
+      }
+    },
+    "development": {
+      "watchDirs": [],
+      "ignoreDirs": [],
+      "fastReady": false,
+      "reloadOnDebug": true,
+      "overrideDefault": false
+    },
+    "logrotator": {
+      "filesRotateByHour": null,
+      "hourDelimiter": "-",
+      "filesRotateBySize": null,
+      "maxFileSize": 52428800,
+      "maxFiles": 10,
+      "rotateDuration": 60000,
+      "maxDays": 31
+    },
+    "static": {
+      "prefix": "/public/",
+      "dir": "/Users/coco/project/support/performance-node/app/public",
+      "dynamic": true,
+      "preload": false,
+      "buffer": false,
+      "maxFiles": 1000
+    },
+    "view": {
+      "root": [
+        "/Users/coco/project/support/performance-node/app/view"
+      ],
+      "cache": false,
+      "defaultExtension": ".html",
+      "defaultViewEngine": "",
+      "mapping": {
+        ".html": "nunjucks"
+      }
+    },
+    "sequelize": {
+      "dialect": "mysql",
+      "database": "performance",
+      "host": "rm-bp171b759ha99x5wfso.mysql.rds.aliyuncs.com",
+      "port": 3306,
+      "username": "root",
+      "password": "<String len: 32>",
+      "user": "root",
+      "operatorsAliases": false,
+      "timezone": "+08:00",
+      "pool": {
+        "max": 10,
+        "min": 0,
+        "acquire": 30000,
+        "idle": 1000,
+        "connectionLimit": 10,
+        "dateStrings": true
+      }
+    },
+    "joi": {
+      "options": {},
+      "locale": {
+        "zh-cn": {}
+      },
+      "throw": true,
+      "throwHandle": "<Function throwHandle>",
+      "errorHandle": "<Function errorHandle>",
+      "resultHandle": "<Function resultHandle>"
+    },
+    "assets": {
+      "isLocalOrUnittest": true,
+      "url": "http://127.0.0.1:10000",
+      "publicPath": "/public",
+      "templatePath": "",
+      "templateViewEngine": "",
+      "crossorigin": false,
+      "contextKey": "context",
+      "devServer": {
+        "enable": true,
+        "command": "cross-env MOCK=none umi dev --port={port}",
+        "autoPort": true,
+        "port": 10000,
+        "portPath": "/Users/coco/project/support/performance-node/run/assetsPort",
+        "env": {
+          "APP_ROOT": "/Users/coco/project/support/performance-node/app/web",
+          "BROWSER": "none",
+          "SOCKET_SERVER": "http://127.0.0.1:{port}"
+        },
+        "debug": true,
+        "timeout": 60000,
+        "waitStart": false
+      }
+    },
+    "nunjucks": {
+      "autoescape": true,
+      "throwOnUndefined": false,
+      "trimBlocks": false,
+      "lstripBlocks": false,
+      "cache": false
+    },
+    "env": "local",
+    "name": "performance-node",
+    "keys": "<String len: 20>",
+    "proxy": false,
+    "maxProxyCount": 0,
+    "protocolHeaders": "x-forwarded-proto",
+    "ipHeaders": "x-forwarded-for",
+    "hostHeaders": "",
+    "pkg": {
+      "name": "performance-node",
+      "version": "1.0.0",
+      "description": "",
+      "main": "index.js",
+      "scripts": {
+        "start": "egg-scripts start --daemon --title=egg-server-ant-design-pro --env prod",
+        "stop": "egg-scripts stop --title=egg-server-ant-design-pro",
+        "dev": "egg-bin dev",
+        "debug": "egg-bin debug",
+        "build": "APP_ROOT=$PWD/app/web umi build",
+        "test": "npm run lint -- --fix && npm run test-local",
+        "test-local": "egg-bin test",
+        "cov": "egg-bin cov",
+        "lint": "eslint .",
+        "ci": "npm run lint && npm run cov",
+        "autod": "autod",
+        "sync": "./script/sync.js"
+      },
+      "engines": {
+        "node": ">=8.9.0"
+      },
+      "ci": {
+        "version": "8",
+        "license": true
+      },
+      "author": "guoyanhong",
+      "license": "ISC",
+      "dependencies": {
+        "async": "^3.1.0",
+        "axios": "^0.18.0",
+        "egg": "^2.21.1",
+        "egg-alinode": "^2.0.1",
+        "egg-joi": "^1.0.7",
+        "egg-logger": "^2.4.1",
+        "egg-logrotator": "^3.0.7",
+        "egg-redis": "^2.3.0",
+        "egg-sequelize": "^4.3.1",
+        "egg-view-static": "^1.0.0",
+        "egg-static": "^2.2.0",
+        "hmacsha1": "^1.0.0",
+        "ioredis": "^4.9.0",
+        "joi": "^14.3.1",
+        "lodash": "^4.17.11",
+        "midway": "^1.10.2",
+        "moment": "^2.24.0",
+        "mqtt": "^2.18.8",
+        "mysql2": "^1.6.5",
+        "sequelize-mysql-timestamp": "^1.3.0",
+        "urllib": "^2.33.2",
+        "uuid": "^3.3.2",
+        "@antv/data-set": "^0.9.6",
+        "@babel/runtime": "^7.1.2",
+        "antd": "^3.10.0",
+        "bizcharts": "^3.2.2",
+        "bizcharts-plugin-slider": "^2.0.3",
+        "classnames": "^2.2.6",
+        "dva": "^2.4.0",
+        "egg-scripts": "^2.5.1",
+        "egg-view-nunjucks": "^2.2.0",
+        "enquire-js": "^0.2.1",
+        "hash.js": "^1.1.5",
+        "lodash-decorators": "^6.0.0",
+        "memoize-one": "^4.0.0",
+        "numeral": "^2.0.6",
+        "nzh": "^1.0.3",
+        "omit.js": "^1.0.0",
+        "path-to-regexp": "^2.4.0",
+        "prop-types": "^15.5.10",
+        "qs": "^6.5.2",
+        "rc-animate": "^2.4.4",
+        "react": "^16.5.1",
+        "react-container-query": "^0.11.0",
+        "react-copy-to-clipboard": "^5.0.1",
+        "react-document-title": "^2.0.3",
+        "react-dom": "^16.5.1",
+        "react-fittext": "^1.0.0",
+        "react-router-dom": "^4.3.1",
+        "react-media": "^1.9.2",
+        "umi-request": "^1.1.0",
+        "egg-view-assets": "^1.5.0",
+        "cross-env": "^5.2.0"
+      },
+      "devDependencies": {
+        "egg-bin": "^4.12.0",
+        "egg-mock": "^3.22.1",
+        "eslint": "^5.15.3",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.16.0",
+        "sequelize-cli": "^5.4.0",
+        "antd-pro-merge-less": "^0.1.0",
+        "antd-theme-webpack-plugin": "^1.1.8",
+        "autod": "^3.0.1",
+        "autod-egg": "^1.1.0",
+        "babel-eslint": "^8.1.2",
+        "babel-plugin-dva-hmr": "^0.4.1",
+        "babel-plugin-import": "^1.6.3",
+        "babel-plugin-transform-decorators-legacy": "^1.3.4",
+        "egg-ci": "^1.8.0",
+        "enzyme": "^3.9.0",
+        "eslint-config-airbnb": "^17.0.0",
+        "eslint-config-egg": "^7.0.0",
+        "eslint-config-prettier": "^6.0.0",
+        "eslint-plugin-babel": "^5.1.0",
+        "eslint-plugin-compat": "^2.6.2",
+        "eslint-plugin-jsx-a11y": "^6.1.2",
+        "eslint-plugin-markdown": "^1.0.0-beta.6",
+        "eslint-plugin-react": "^7.11.1",
+        "mockjs": "^1.0.1-beta3",
+        "redbox-react": "^1.5.0",
+        "umi": "^2.1.2",
+        "umi-plugin-ga": "^1.1.3",
+        "umi-plugin-react": "^1.1.1"
+      }
+    },
+    "baseDir": "/Users/coco/project/support/performance-node",
+    "HOME": "/Users/coco",
+    "rundir": "/Users/coco/project/support/performance-node/run",
+    "dump": {
+      "ignore": "<Set>"
+    },
+    "confusedConfigurations": {
+      "bodyparser": "bodyParser",
+      "notFound": "notfound",
+      "sitefile": "siteFile",
+      "middlewares": "middleware",
+      "httpClient": "httpclient"
+    },
+    "notfound": {
+      "pageUrl": ""
+    },
+    "siteFile": {
+      "/favicon.ico": "<Buffer len: 6463>"
+    },
+    "bodyParser": {
+      "enable": true,
+      "encoding": "utf8",
+      "formLimit": "2mb",
+      "jsonLimit": "3mb",
+      "strict": true,
+      "queryString": {
+        "arrayLimit": 100,
+        "depth": 5,
+        "parameterLimit": 1000
+      },
+      "enableTypes": [
+        "json",
+        "form"
+      ],
+      "returnRawBody": true
+    },
+    "logger": {
+      "dir": "/Users/coco/project/support/performance-node/logs/performance-node",
+      "encoding": "utf8",
+      "env": "local",
+      "level": "DEBUG",
+      "consoleLevel": "DEBUG",
+      "disableConsoleAfterReady": false,
+      "outputJSON": true,
+      "buffer": true,
+      "appLogName": "performance-node-web.log",
+      "coreLogName": "egg-web.log",
+      "agentLogName": "egg-agent.log",
+      "errorLogName": "common-error.log",
+      "coreLogger": {
+        "consoleLevel": "WARN"
+      },
+      "allowDebugAtProd": false,
+      "type": "application"
+    },
+    "httpclient": {
+      "enableDNSCache": false,
+      "dnsCacheLookupInterval": 10000,
+      "dnsCacheMaxLength": 1000,
+      "request": {
+        "timeout": 5000
+      },
+      "httpAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      },
+      "httpsAgent": {
+        "keepAlive": true,
+        "freeSocketTimeout": 4000,
+        "maxSockets": 9007199254740991,
+        "maxFreeSockets": 256
+      }
+    },
+    "meta": {
+      "enable": true,
+      "logging": false
+    },
+    "coreMiddleware": [
+      "meta",
+      "siteFile",
+      "notfound",
+      "static",
+      "bodyParser",
+      "overrideMethod",
+      "session",
+      "securities",
+      "i18n",
+      "eggLoaderTrace"
+    ],
+    "workerStartTimeout": 600000,
+    "serverTimeout": null,
+    "cluster": {
+      "listen": {
+        "path": "",
+        "port": 7001,
+        "hostname": ""
+      }
+    },
+    "clusterClient": {
+      "maxWaitTime": 60000,
+      "responseTimeout": 60000
+    },
+    "onClientError": null,
+    "debug": true,
+    "middleware": [
+      "auth"
+    ],
+    "thirdUrl": {
+      "host": "http://api.test.weidiango.com"
+    },
+    "dev": {
+      "enable": true,
+      "package": "egg-dev"
+    },
+    "coreMiddlewares": "~config~coreMiddleware",
+    "appMiddlewares": "~config~middleware",
+    "appMiddleware": "~config~middleware",
+    "multipartParseOptions": {
+      "autoFields": false,
+      "defCharset": "utf8",
+      "limits": {
+        "fieldNameSize": 100,
+        "fieldSize": 102400,
+        "fields": 10,
+        "fileSize": 10485760,
+        "files": 10
+      },
+      "checkFile": "<Function checkFile>"
+    }
+  },
+  "plugins": {
+    "session": {
+      "enable": true,
+      "package": "egg-session",
+      "name": "session",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-session",
+      "version": "3.1.0"
+    },
+    "security": {
+      "enable": true,
+      "package": "egg-security",
+      "name": "security",
+      "dependencies": [],
+      "optionalDependencies": [
+        "session"
+      ],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-security",
+      "version": "2.5.0"
+    },
+    "jsonp": {
+      "enable": true,
+      "package": "egg-jsonp",
+      "name": "jsonp",
+      "dependencies": [],
+      "optionalDependencies": [
+        "security"
+      ],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-jsonp",
+      "version": "2.0.0"
+    },
+    "onerror": {
+      "enable": true,
+      "package": "egg-onerror",
+      "name": "onerror",
+      "dependencies": [],
+      "optionalDependencies": [
+        "jsonp"
+      ],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-onerror",
+      "version": "2.1.0"
+    },
+    "i18n": {
+      "enable": true,
+      "package": "egg-i18n",
+      "name": "i18n",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-i18n",
+      "version": "2.1.1"
+    },
+    "watcher": {
+      "enable": true,
+      "package": "egg-watcher",
+      "name": "watcher",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-watcher",
+      "version": "3.1.0"
+    },
+    "schedule": {
+      "enable": true,
+      "package": "egg-schedule",
+      "name": "schedule",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-schedule",
+      "version": "3.6.4"
+    },
+    "multipart": {
+      "enable": true,
+      "package": "egg-multipart",
+      "name": "multipart",
+      "dependencies": [],
+      "optionalDependencies": [
+        "schedule"
+      ],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-multipart",
+      "version": "2.7.1"
+    },
+    "development": {
+      "enable": true,
+      "package": "egg-development",
+      "name": "development",
+      "dependencies": [
+        "watcher"
+      ],
+      "optionalDependencies": [],
+      "env": [
+        "local"
+      ],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-development",
+      "version": "2.4.3"
+    },
+    "logrotator": {
+      "enable": true,
+      "package": "egg-logrotator",
+      "name": "logrotator",
+      "dependencies": [
+        "schedule"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-logrotator",
+      "version": "3.1.0"
+    },
+    "static": {
+      "enable": true,
+      "package": "egg-static",
+      "name": "static",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-static",
+      "version": "2.2.0"
+    },
+    "view": {
+      "enable": true,
+      "package": "egg-view",
+      "name": "view",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/node_modules/egg/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-view",
+      "version": "2.1.2"
+    },
+    "sequelize": {
+      "enable": true,
+      "package": "egg-sequelize",
+      "name": "sequelize",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-sequelize",
+      "version": "4.3.1"
+    },
+    "joi": {
+      "enable": true,
+      "package": "egg-joi",
+      "name": "joi",
+      "dependencies": [],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-joi",
+      "version": "1.0.7"
+    },
+    "assets": {
+      "enable": true,
+      "package": "egg-view-assets",
+      "name": "assets",
+      "dependencies": [
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-view-assets",
+      "version": "1.5.0"
+    },
+    "nunjucks": {
+      "enable": true,
+      "package": "egg-view-nunjucks",
+      "name": "nunjucks",
+      "dependencies": [
+        "security",
+        "view"
+      ],
+      "optionalDependencies": [],
+      "env": [],
+      "from": "/Users/coco/project/support/performance-node/config/plugin.js",
+      "path": "/Users/coco/project/support/performance-node/node_modules/egg-view-nunjucks",
+      "version": "2.2.0"
+    }
+  }
+}

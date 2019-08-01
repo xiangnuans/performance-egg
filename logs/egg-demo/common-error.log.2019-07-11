@@ -1,0 +1,591 @@
+2019-07-10 17:54:31,667 ERROR 27866 [-/127.0.0.1/-/8ms GET /view/groupList] [controller.status]:获取客户端用户名和密码错误： {"isJoi":true,"name":"ValidationError","details":[{"message":"\"deviceId\" is required","path":["deviceId"],"type":"any.required","context":{"key":"deviceId","label":"deviceId"}}],"_object":{},"expose":true,"statusCode":422,"status":422}
+2019-07-10 17:54:31,668 ERROR 27866 [-/127.0.0.1/-/9ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: ValidationError: child "deviceId" fails because ["deviceId" is required]
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:57:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+2019-07-10 17:56:24,146 ERROR 27946 [-/127.0.0.1/-/8ms GET /view/groupList] [controller.status]:获取所有团队列表： {"isJoi":true,"name":"ValidationError","details":[{"message":"\"deviceId\" is required","path":["deviceId"],"type":"any.required","context":{"key":"deviceId","label":"deviceId"}}],"_object":{},"expose":true,"statusCode":422,"status":422}
+2019-07-10 17:56:24,147 ERROR 27946 [-/127.0.0.1/-/10ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: ValidationError: child "deviceId" fails because ["deviceId" is required]
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:57:13)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+2019-07-10 17:56:52,019 ERROR 27966 [-/127.0.0.1/-/26ms GET /view/groupList] [controller.view]:获取团队列表失败 {"errno":"ENOTFOUND","code":"ENOTFOUND","syscall":"getaddrinfo","hostname":"undefined","host":"undefined","port":80,"name":"RequestError","path":"/teamUserNetflow/teamUserNetflow","status":-1,"headers":{},"res":{"status":-1,"statusCode":-1,"statusMessage":null,"headers":{},"size":0,"aborted":false,"rt":18,"keepAliveSocket":false,"requestUrls":["http://undefined/teamUserNetflow/teamUserNetflow"],"timing":null,"remoteAddress":"","remotePort":"","socketHandledRequests":1,"socketHandledResponses":0}}
+2019-07-10 17:56:52,020 ERROR 27966 [-/127.0.0.1/-/27ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: RequestError: getaddrinfo ENOTFOUND undefined undefined:80, GET http://undefined/teamUserNetflow/teamUserNetflow -1 (connected: false, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":1,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"undefined:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 0)
+headers: {}
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 17:58:10,629 ERROR 28004 [-/127.0.0.1/-/175ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 17:58:10,630 ERROR 28004 [-/127.0.0.1/-/176ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: ReferenceError: re is not defined
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 17:58:22,022 ERROR 28023 [-/127.0.0.1/-/37ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 17:58:22,022 ERROR 28023 [-/127.0.0.1/-/37ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res.description is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 17:59:01,675 ERROR 28042 [-/127.0.0.1/-/31ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 17:59:01,676 ERROR 28042 [-/127.0.0.1/-/32ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res.description is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 17:59:48,432 ERROR 28069 [-/127.0.0.1/-/36ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 17:59:48,433 ERROR 28069 [-/127.0.0.1/-/36ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:00:49,296 ERROR 28099 [-/127.0.0.1/-/30ms GET /view/groupList] [service.getGroupList]: 调用获取所有团队列表失败： { data:
+   <Buffer 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 3c 74 69 74 6c 65 3e 41 70 61 63 68 65 20 54 6f 6d 63 61 74 2f 37 2e 30 2e 35 39 2e 33 34 36 20 2d 20 45 72 72 6f ... >,
+  status: 404,
+  headers:
+   { server: 'nginx/1.4.7',
+     date: 'Wed, 10 Jul 2019 10:00:49 GMT',
+     'content-type': 'text/html;charset=utf-8',
+     'content-length': '957',
+     connection: 'keep-alive',
+     'access-control-allow-credentials': 'true',
+     'access-control-allow-headers':
+      'Origin, X-Requested-With, Last-Modified, Content-Type, Accept',
+     'access-control-allow-methods': 'GET, OPTIONS, POST',
+     'content-language': 'en' },
+  res:
+   { status: 404,
+     statusCode: 404,
+     statusMessage: 'Not Found',
+     headers:
+      { server: 'nginx/1.4.7',
+        date: 'Wed, 10 Jul 2019 10:00:49 GMT',
+        'content-type': 'text/html;charset=utf-8',
+        'content-length': '957',
+        connection: 'keep-alive',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-headers':
+         'Origin, X-Requested-With, Last-Modified, Content-Type, Accept',
+        'access-control-allow-methods': 'GET, OPTIONS, POST',
+        'content-language': 'en' },
+     size: 957,
+     aborted: false,
+     rt: 24,
+     keepAliveSocket: false,
+     data:
+      <Buffer 3c 68 74 6d 6c 3e 3c 68 65 61 64 3e 3c 74 69 74 6c 65 3e 41 70 61 63 68 65 20 54 6f 6d 63 61 74 2f 37 2e 30 2e 35 39 2e 33 34 36 20 2d 20 45 72 72 6f ... >,
+     requestUrls:
+      [ 'http://api.test.weidiango.com/teamUserNetflow/teamUserNetflow' ],
+     timing: null,
+     remoteAddress: '121.199.22.28',
+     remotePort: 80,
+     socketHandledRequests: 1,
+     socketHandledResponses: 1 } }
+2019-07-10 18:00:49,297 ERROR 28099 [-/127.0.0.1/-/33ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 18:00:49,298 ERROR 28099 [-/127.0.0.1/-/33ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:01:53,382 ERROR 28139 [-/127.0.0.1/-/74ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 18:01:53,382 ERROR 28139 [-/127.0.0.1/-/74ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:02:13,428 ERROR 28158 [-/127.0.0.1/-/65ms GET /view/groupList] [service.getGroupList]: 调用获取所有团队列表失败： { data:
+   <Buffer 7b 22 64 61 74 61 22 3a 5b 7b 22 69 64 22 3a 31 2c 22 74 65 61 6d 4e 61 6d 65 22 3a 22 e7 be 8e e5 a6 86 e4 b8 aa e9 94 80 e9 a1 be e5 9b a2 e9 98 9f ... >,
+  status: 200,
+  headers:
+   { server: 'nginx/1.4.7',
+     date: 'Wed, 10 Jul 2019 10:02:13 GMT',
+     'content-type': 'application/json;charset=UTF-8',
+     'transfer-encoding': 'chunked',
+     connection: 'keep-alive',
+     'access-control-allow-credentials': 'true',
+     'access-control-allow-headers':
+      'Origin, X-Requested-With, Last-Modified, Content-Type, Accept',
+     'access-control-allow-methods': 'GET, OPTIONS, POST' },
+  res:
+   { status: 200,
+     statusCode: 200,
+     statusMessage: 'OK',
+     headers:
+      { server: 'nginx/1.4.7',
+        date: 'Wed, 10 Jul 2019 10:02:13 GMT',
+        'content-type': 'application/json;charset=UTF-8',
+        'transfer-encoding': 'chunked',
+        connection: 'keep-alive',
+        'access-control-allow-credentials': 'true',
+        'access-control-allow-headers':
+         'Origin, X-Requested-With, Last-Modified, Content-Type, Accept',
+        'access-control-allow-methods': 'GET, OPTIONS, POST' },
+     size: 15240,
+     aborted: false,
+     rt: 59,
+     keepAliveSocket: false,
+     data:
+      <Buffer 7b 22 64 61 74 61 22 3a 5b 7b 22 69 64 22 3a 31 2c 22 74 65 61 6d 4e 61 6d 65 22 3a 22 e7 be 8e e5 a6 86 e4 b8 aa e9 94 80 e9 a1 be e5 9b a2 e9 98 9f ... >,
+     requestUrls:
+      [ 'http://api.test.weidiango.com/teamUserNetflow/selectByDepartmentId' ],
+     timing: null,
+     remoteAddress: '121.199.22.28',
+     remotePort: 80,
+     socketHandledRequests: 1,
+     socketHandledResponses: 1 } }
+2019-07-10 18:02:13,429 ERROR 28158 [-/127.0.0.1/-/67ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 18:02:13,429 ERROR 28158 [-/127.0.0.1/-/68ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:04:03,637 ERROR 28190 [-/127.0.0.1/-/54ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 18:04:03,637 ERROR 28190 [-/127.0.0.1/-/54ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:05:38,509 ERROR 28231 [-/127.0.0.1/-/97ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 18:05:38,509 ERROR 28231 [-/127.0.0.1/-/98ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:06:16,954 ERROR 28263 [-/127.0.0.1/-/51ms GET /view/groupList] [controller.view]:获取团队列表失败 {}
+2019-07-10 18:06:16,955 ERROR 28263 [-/127.0.0.1/-/51ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: TypeError: res is not a constructor
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:19:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-10 18:07:18,421 ERROR 28292 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:322:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:322:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 28292
+hostname: cocodeiMac.local
+
+2019-07-11 13:42:41,943 ERROR 44233 [-/127.0.0.1/-/60ms GET /view/groupList] [controller.view]:获取团队列表失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/teamUserNetflow/selectByDepartmentId","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 05:42:41 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 05:42:41 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":54,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/teamUserNetflow/selectByDepartmentId"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 13:42:41,944 ERROR 44233 [-/127.0.0.1/-/61ms GET /view/groupList] [server error]:  "GET" "/view/groupList" 404 undefined Error: JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>"), GET http://api.test.weidiango.com/teamUserNetflow/selectByDepartmentId 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":1,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.test.weidiango.com:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 05:42:41 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+    at ViewController.getGroupList (/Users/coco/project/support/performance-node/app/controller/view.js:18:13)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 13:49:32,833 ERROR 44370 [-/127.0.0.1/-/9ms GET /view/base?teamId=all&date=2019-07-10] [controller.view]: 获取销售额失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"teamId\" must be a number","path":["teamId"],"type":"number.base","context":{"value":"all","key":"teamId","label":"teamId"}}],"_object":{"teamId":"all","date":"2019-07-10"},"expose":true,"statusCode":422,"status":422}
+2019-07-11 13:49:32,834 ERROR 44370 [-/127.0.0.1/-/10ms GET /view/base?teamId=all&date=2019-07-10] [server error]:  "GET" "/view/base?teamId=all&date=2019-07-10" 404 undefined Error: ValidationError: child "teamId" fails because ["teamId" must be a number]
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+2019-07-11 13:50:02,788 ERROR 44418 [-/127.0.0.1/-/8ms GET /view/base?teamId=all&date=2019-07-10] [controller.view]: 获取销售额失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"teamId\" is not allowed","path":["teamId"],"type":"object.allowUnknown","context":{"child":"teamId","value":"all","key":"teamId","label":"teamId"}}],"_object":{"teamId":"all","date":"2019-07-10"},"expose":true,"statusCode":422,"status":422}
+2019-07-11 13:50:02,788 ERROR 44418 [-/127.0.0.1/-/9ms GET /view/base?teamId=all&date=2019-07-10] [server error]:  "GET" "/view/base?teamId=all&date=2019-07-10" 404 undefined Error: ValidationError: "teamId" is not allowed
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+2019-07-11 13:53:26,572 ERROR 44545 [-/127.0.0.1/-/11ms GET /view/base?teamId=all&date=2019-07-10] [controller.view]: 获取销售额失败 {"isJoi":true,"name":"ValidationError","details":[{"message":"\"teamId\" must be a number","path":["teamId"],"type":"number.base","context":{"value":"all","key":"teamId","label":"teamId"}}],"_object":{"teamId":"all","date":"2019-07-10"},"expose":true,"statusCode":422,"status":422}
+2019-07-11 13:53:26,573 ERROR 44545 [-/127.0.0.1/-/12ms GET /view/base?teamId=all&date=2019-07-10] [server error]:  "GET" "/view/base?teamId=all&date=2019-07-10" 404 undefined Error: ValidationError: child "teamId" fails because ["teamId" must be a number]
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+2019-07-11 13:56:41,288 ERROR 44545 [-/127.0.0.1/-/3ms GET /view/base?teamId=0&date=2019-07-10] [controller.view]: 获取销售额失败 {}
+2019-07-11 13:56:41,288 ERROR 44545 [-/127.0.0.1/-/3ms GET /view/base?teamId=0&date=2019-07-10] [server error]:  "GET" "/view/base?teamId=0&date=2019-07-10" 404 undefined Error: TypeError: params.date.getTime is not a function
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 13:57:12,845 ERROR 44623 [-/127.0.0.1/-/9ms GET /view/base?teamId=0&date=2019-07-10] [controller.view]: 获取销售额失败 {}
+2019-07-11 13:57:12,845 ERROR 44623 [-/127.0.0.1/-/10ms GET /view/base?teamId=0&date=2019-07-10] [server error]:  "GET" "/view/base?teamId=0&date=2019-07-10" 404 undefined Error: ReferenceError: getTime is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:10:46,254 ERROR 46346 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] 调用第三方接口失败 {}
+2019-07-11 15:10:46,255 ERROR 46346 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:10:46,255 ERROR 46346 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: ReferenceError: logger is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:10:46,259 ERROR 46346 nodejs.unhandledRejectionError: TypeError: Cannot read property 'thirdUrl' of undefined
+    at Helper.postTeamSale (/Users/coco/project/support/performance-node/app/extend/helper.js:78:13)
+    at ViewService.getBase (/Users/coco/project/support/performance-node/app/service/view.js:47:19)
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:30:39)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+name: "unhandledRejectionError"
+pid: 46346
+hostname: cocodeiMac.local
+
+2019-07-11 15:19:05,777 ERROR 46556 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:19:05,778 ERROR 46556 [-/127.0.0.1/-/13ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: ReferenceError: logger is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:19:39,706 ERROR 46570 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 15:19:39,707 ERROR 46570 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:19:39,707 ERROR 46570 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: ReferenceError: postTeamSale is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:20:37,396 ERROR 46621 [-/127.0.0.1/-/10ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 15:20:37,396 ERROR 46621 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:20:37,396 ERROR 46621 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: ReferenceError: postTeamSale is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:26:15,387 ERROR 46820 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 15:26:15,388 ERROR 46820 [-/127.0.0.1/-/13ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:26:15,388 ERROR 46820 [-/127.0.0.1/-/13ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: TypeError: ctx.service.third.posTeamSale is not a function
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:26:54,188 ERROR 46844 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 15:26:54,189 ERROR 46844 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:26:54,190 ERROR 46844 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: TypeError: Cannot read property 'posTeamSale' of undefined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:27:06,842 ERROR 46869 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 15:27:06,842 ERROR 46869 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:27:06,843 ERROR 46869 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: TypeError: Cannot read property 'postTeamSale' of undefined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:29:49,481 ERROR 46923 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {}
+2019-07-11 15:29:49,481 ERROR 46923 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 15:29:49,482 ERROR 46923 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:29:49,482 ERROR 46923 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: Error: TypeError: Cannot read property 'thirdUrl' of undefined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:45:11,694 ERROR 47388 [-/127.0.0.1/-/9ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 15:45:11,694 ERROR 47388 [-/127.0.0.1/-/10ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: ReferenceError: dataSTime is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 15:48:13,466 ERROR 47460 [-/127.0.0.1/-/0ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:322:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:322:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 47460
+hostname: cocodeiMac.local
+
+2019-07-11 16:46:13,181 ERROR 48725 [-/127.0.0.1/-/1ms GET /] nodejs.SequelizeConnectionError: connect ETIMEDOUT
+    at Utils.Promise.tap.then.catch.err (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:149:19)
+From previous event:
+    at ConnectionManager.connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/mysql/connection-manager.js:136:13)
+    at sequelize.runHooks.then (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:322:50)
+    at runCallback (timers.js:705:18)
+    at tryOnImmediate (timers.js:676:5)
+    at processImmediate (timers.js:658:5)
+From previous event:
+    at ConnectionManager._connect (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:322:8)
+    at ConnectionManager.getConnection (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/dialects/abstract/connection-manager.js:250:46)
+    at Promise.try (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:557:34)
+From previous event:
+    at Promise.resolve.retryParameters (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:64)
+    at /Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:39:21
+    at retryAsPromised (/Users/coco/project/support/performance-node/node_modules/retry-as-promised/index.js:29:10)
+    at Sequelize.query (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:457:28)
+    at Sequelize.authenticate (/Users/coco/project/support/performance-node/node_modules/sequelize/lib/sequelize.js:786:17)
+    at authenticate (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:129:22)
+    at Promise.all.databases.map.database (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:49)
+    at Array.map (<anonymous>)
+    at app.beforeStart (/Users/coco/project/support/performance-node/node_modules/egg-sequelize/lib/loader.js:40:33)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:42)
+    at process.nextTick (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/lifecycle.js:248:13)
+    at process._tickCallback (internal/process/next_tick.js:61:11)
+    at Function.Module.runMain (internal/modules/cjs/loader.js:745:11)
+    at startup (internal/bootstrap/node.js:283:19)
+    at bootstrapNodeJSCore (internal/bootstrap/node.js:743:3)
+name: "SequelizeConnectionError"
+parent: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+original: {"errorno":"ETIMEDOUT","code":"ETIMEDOUT","syscall":"connect","fatal":true}
+pid: 48725
+hostname: cocodeiMac.local
+
+2019-07-11 17:36:04,063 ERROR 49956 [-/127.0.0.1/-/5ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {"message":"joi schema missing"}
+2019-07-11 17:36:04,064 ERROR 49956 [-/127.0.0.1/-/5ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: UnprocessableEntityError: joi schema missing
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/utils/index.js:44:21)
+    at Object.classControllerMiddleware (/Users/coco/project/support/performance-node/node_modules/egg-core/lib/loader/mixin/controller.js:87:20)
+    at Object.callFn (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/utils.js:12:21)
+    at wrappedController (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/egg_router.js:322:18)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at next (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:45:18)
+    at /Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:190:18
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:44:32)
+    at /Users/coco/project/support/performance-node/node_modules/koa-compose/index.js:36:12
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/@eggjs/router/lib/router.js:195:33)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/response_format.js:9:11
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/app/middleware/auth.js:44:9
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at /Users/coco/project/support/performance-node/node_modules/egg-development/app/middleware/egg_loader_trace.js:9:56
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at i18n (/Users/coco/project/support/performance-node/node_modules/egg-i18n/app/middleware/i18n.js:13:12)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/koa/node_modules/koa-compose/index.js:42:32)
+    at dispatch (/Users/coco/project/support/performance-node/node_modules/egg-security/node_modules/koa-compose/index.js:42:32)
+    at dta (/Users/coco/project/support/performance-node/node_modules/egg-security/lib/middlewares/dta.js:12:12)
+2019-07-11 17:37:46,503 ERROR 50032 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 17:37:46,504 ERROR 50032 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 17:37:46,505 ERROR 50032 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: ReferenceError: LMSTime is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 17:38:49,702 ERROR 50084 [-/127.0.0.1/-/10ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 17:38:49,703 ERROR 50084 [-/127.0.0.1/-/11ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 17:38:49,703 ERROR 50084 [-/127.0.0.1/-/12ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: ReferenceError: async is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 17:40:58,591 ERROR 50152 [-/127.0.0.1/-/9ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 17:40:58,592 ERROR 50152 [-/127.0.0.1/-/10ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 17:40:58,592 ERROR 50152 [-/127.0.0.1/-/10ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: ReferenceError: async is not defined
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 17:46:50,512 ERROR 50504 [-/127.0.0.1/-/17ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 17:46:50,513 ERROR 50504 [-/127.0.0.1/-/17ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 17:46:50,513 ERROR 50504 [-/127.0.0.1/-/18ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: Error: expected a function
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 17:46:53,751 ERROR 50504 [-/127.0.0.1/-/3256ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3240,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:46:53,751 ERROR 50504 nodejs.unhandledRejectionError: JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>"), POST http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":0,"freeSockets":{},"sockets":{"api.test.weidiango.com:80:":4},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50504
+hostname: cocodeiMac.local
+
+2019-07-11 17:46:53,753 ERROR 50504 [-/127.0.0.1/-/3258ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3246,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:46:53,756 ERROR 50504 nodejs.unhandledRejectionError: JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>"), POST http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":1,"freeSockets":{"api.test.weidiango.com:80:":1},"sockets":{"api.test.weidiango.com:80:":3},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50504
+hostname: cocodeiMac.local
+
+2019-07-11 17:46:53,768 ERROR 50504 [-/127.0.0.1/-/3273ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3256,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:46:53,768 ERROR 50504 nodejs.unhandledRejectionError: JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>"), POST http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":2,"freeSockets":{"api.test.weidiango.com:80:":2},"sockets":{"api.test.weidiango.com:80:":2},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50504
+hostname: cocodeiMac.local
+
+2019-07-11 17:46:53,768 ERROR 50504 [-/127.0.0.1/-/3273ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3257,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:46:53,771 ERROR 50504 nodejs.unhandledRejectionError: JSONResponseFormatError: Unexpected token < in JSON at position 0 (data json format: "<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>"), POST http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth 502 (connected: true, keepalive socket: false, agent status: {"createSocketCount":4,"createSocketErrorCount":0,"closeSocketCount":0,"errorSocketCount":0,"timeoutSocketCount":0,"requestCount":3,"freeSockets":{"api.test.weidiango.com:80:":3},"sockets":{"api.test.weidiango.com:80:":1},"requests":{}}, socketHandledRequests: 1, socketHandledResponses: 1)
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+headers: {"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:46:53 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""}
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50504
+hostname: cocodeiMac.local
+
+2019-07-11 17:48:51,780 ERROR 50557 [-/127.0.0.1/-/18ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 17:48:51,780 ERROR 50557 [-/127.0.0.1/-/18ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 17:48:51,781 ERROR 50557 [-/127.0.0.1/-/19ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: Error: expected a function
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 17:48:54,791 ERROR 50557 [-/127.0.0.1/-/3029ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3011,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:48:54,792 ERROR 50557 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50557
+hostname: cocodeiMac.local
+
+2019-07-11 17:48:54,793 ERROR 50557 [-/127.0.0.1/-/3031ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3015,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:48:54,794 ERROR 50557 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50557
+hostname: cocodeiMac.local
+
+2019-07-11 17:48:54,802 ERROR 50557 [-/127.0.0.1/-/3040ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3024,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:48:54,803 ERROR 50557 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50557
+hostname: cocodeiMac.local
+
+2019-07-11 17:48:54,803 ERROR 50557 [-/127.0.0.1/-/3041ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:48:54 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":3030,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:48:54,804 ERROR 50557 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50557
+hostname: cocodeiMac.local
+
+2019-07-11 17:49:03,424 ERROR 50578 [-/127.0.0.1/-/19ms GET /view/base?teamId=3&date=2019-07-05] [service.view]: 获取销售总额失败 {}
+2019-07-11 17:49:03,425 ERROR 50578 [-/127.0.0.1/-/20ms GET /view/base?teamId=3&date=2019-07-05] [controller.view]: 获取销售额失败 {}
+2019-07-11 17:49:03,425 ERROR 50578 [-/127.0.0.1/-/20ms GET /view/base?teamId=3&date=2019-07-05] [server error]:  "GET" "/view/base?teamId=3&date=2019-07-05" 404 undefined Error: Error: Error: expected a function
+    at ViewController.getBase (/Users/coco/project/support/performance-node/app/controller/view.js:35:14)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+2019-07-11 17:49:04,473 ERROR 50578 [-/127.0.0.1/-/1067ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":1048,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:49:04,473 ERROR 50578 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50578
+hostname: cocodeiMac.local
+
+2019-07-11 17:49:04,474 ERROR 50578 [-/127.0.0.1/-/1069ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":1057,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:49:04,475 ERROR 50578 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50578
+hostname: cocodeiMac.local
+
+2019-07-11 17:49:04,482 ERROR 50578 [-/127.0.0.1/-/1077ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":1059,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:49:04,483 ERROR 50578 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50578
+hostname: cocodeiMac.local
+
+2019-07-11 17:49:04,484 ERROR 50578 [-/127.0.0.1/-/1079ms GET /view/base?teamId=3&date=2019-07-05] [service.third]: 调用第三方接口失败 {"name":"JSONResponseFormatError","data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","path":"/hourlyGMV/selectTeamSaleEveryDayOrMonth","status":502,"headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"res":{"status":502,"statusCode":502,"statusMessage":"Bad Gateway","headers":{"server":"nginx/1.4.7","date":"Thu, 11 Jul 2019 09:49:04 GMT","content-type":"text/html","content-length":"318","connection":"keep-alive","etag":"\"5cb9905d-13e\""},"size":318,"aborted":false,"rt":1062,"keepAliveSocket":false,"data":"<!DOCTYPE html>\n\n<html>\n\n<head>\n\n<meta http-equiv=\"Content-Type\" content=\"text/html;\" charset=\"utf-8\">\n\n<title>系统维护中</title>\n\n</head>\n\n<style type=\"text/css\">\n\n</style>\n\n<body background=\"weihu.png\"\n      style=\"background-repeat:no-repeat;\nbackground-size:100% 100%;\nbackground-attachment: fixed;\">\n\n</html>","requestUrls":["http://api.test.weidiango.com/hourlyGMV/selectTeamSaleEveryDayOrMonth"],"timing":null,"remoteAddress":"121.199.22.28","remotePort":80,"socketHandledRequests":1,"socketHandledResponses":1}}
+2019-07-11 17:49:04,484 ERROR 50578 nodejs.unhandledRejectionError: 调用第三方接口失败
+    at ThirdService.postTeamSale (/Users/coco/project/support/performance-node/app/service/third.js:36:12)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+name: "unhandledRejectionError"
+pid: 50578
+hostname: cocodeiMac.local
+
