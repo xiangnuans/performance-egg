@@ -1,5 +1,6 @@
 # performance-egg
 技术栈：react（ant-desgin-pro框架） + egg + mysql
+从项目需求到部署上线整个项目流程
 
 # 知识点汇总
 - react使用[ant-desgin-pro](https://github.com/ant-design/ant-design-pro.git)框架，可以尝试TypeScript版本
@@ -9,6 +10,33 @@
 - ant-design-pro /src/utils/request请求方式的封装，typescript方式(包umi-request的使用)
 - [egg-ant-design-pro](https://github.com/eggjs/egg-ant-design-pro)
 - 登陆，认证session和cookie，参考[https://eggjs.org/zh-cn/core/cookie-and-session.html](https://eggjs.org/zh-cn/core/cookie-and-session.html)
+- 部署方式：1. 机器部署 2. docker部署（单独文章记录，待更新）
+
+
+# 命令（暂时想到的）
+
+1. git常用命令，这里就不提了
+2. node命令
+```
+ps -ef | grep node    // 查看当前运行的node进程
+kill pid      // 杀死进程
+lsof -i:7001    //查看端口运行状态
+```
+3. docker构建
+```
+1. docker login registry.cn-hangzhou.aliyuncs.com -u XXX -p XXX       // 我自己的阿里镜像仓库
+
+2. docker build --cache-from registry.cn-hangzhou.aliyuncs.com/coco/performance-node:latest -t registry.cn-hangzhou.aliyuncs.com/coco/performance-node:1.0.0 --tagregistry.cn-hangzhou.aliyuncs.com/coco/performance-node:latest .     // coco仓库名称
+
+3. docker push registry.cn-hangzhou.aliyuncs.com/coco/performance-node:1.0.0
+```
+
+4. kubernets部署
+```
+cat env.yml | sed "s/{{NAMESPACE}}/member-test/g;s/{{APP_NAME}}/$PACKAGE_NAME/g" | kubectl apply -f -    // namespace-kubernets的命名空间， 
+
+- cat deployment-dev.yml | sed "s/{{CI_COMMIT_SHA}}/$CI_COMMIT_SHA/g;s/{{NAMESPACE}}/member-test/g;s/{{ENV}}/dev/g;s/{{APP_NAME}}/$PACKAGE_NAME/g;" | kubectl apply -f -     // CI_COMMIT_SHA- 镜像标签
+```
 
 
 # 坑点
