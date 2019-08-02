@@ -88,3 +88,14 @@ yarn dev
 按文章的方式修改/etc/hosts文件，重新启动服务，访问成功
 
 2）但是静态资源访问不到
+解决方案： isLocalOrUnittest: false,
+```
+isLocalOrUnittest: false,
+  devServer: {
+    env: {
+      SOCKET_SERVER: 'http://:{port}',    // 机器IP地址
+    },
+    debug: false,
+  },
+```
+用yarn start启动（ps:不是为什么）
