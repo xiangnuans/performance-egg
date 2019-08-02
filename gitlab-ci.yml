@@ -1,0 +1,45 @@
+image: docker:stable
+
+
+variables:
+  DOCKER_REGISTRY: registry.cn-hangzhou.aliyuncs.com
+
+stages:
+  - build
+  - deploy
+
+build:
+  stage: build
+  only:
+    - dev
+  tags:
+    - docker
+  before_script:
+    - echo "$REGISTRY_PASSWORD" | docker login $DOCKER_REGISTRY -u gyh6275 -p abc123456
+  after_script:
+    - docker logout $DOCKER_REGISTRY
+  script:
+    - PACKAGE_NAME=$(sed -nE "s/^\\s*\"name\":\ \"(.*?)\",$/\\1/p" package.json)
+    - CONTAINER_IMAGE=$DOCKER_REGISTRY/coco/$PACKAGE_NAME
+    - docker pull $CONTAINER_IMAGE:latest || true
+    - docker build --cache-from $CONTAINER_IMAGE:latest -t $CONTAINER_IMAGE:$CI_COMMIT_SHA --tag $CONTAINER_IMAGE:latest .
+    - docker push $CONTAINER_IMAGE:$CI_COMMIT_SHA
+    - docker push $CONTAINER_IMAGE:latest
+
+
+deploy:
+  image:
+    name: lachlanevenson/k8s-kubectl:latest
+    entrypoint: ["/bin/sh", "-c"]
+  stage: deploy
+  only:
+    - dev
+  before_script:
+    - mkdir -p $HOME/.kube
+    - echo -n $KUBE_CONFIG_DEV | base64 -d > $HOME/.kube/config
+  script:
+    - PACKAGE_VERSION=$(sed -nE "s/^\\s*\"version\":\ \"(.*?)\",$/\\1/p" package.json)
+    - PACKAGE_NAME=$(sed -nE "s/^\\s*\"name\":\ \"(.*?)\",$/\\1/p" package.json)
+    - cat env.yml | sed "s/{{NAMESPACE}}/member-test/g;s/{{APP_NAME}}/$PACKAGE_NAME/g" | kubectl apply -f -
+    - cat deployment-dev.yml | sed "s/{{CI_COMMIT_SHA}}/$CI_COMMIT_SHA/g;s/{{NAMESPACE}}/member-test/g;s/{{ENV}}/dev/g;s/{{APP_NAME}}/$PACKAGE_NAME/g;" | kubectl apply -f -
+

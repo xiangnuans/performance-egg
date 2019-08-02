@@ -5,7 +5,6 @@ const {
   MYSQL_HOST,
   MYSQL_USER,
   MYSQL_PASSWORD,
-  URL,
 } = process.env;
 
 exports.logger = {
@@ -21,5 +20,12 @@ exports.sequelize = {
 };
 
 exports.assets = {
-  url: URL,
-}
+  isLocalOrUnittest: false,
+  devServer: {
+    env: {
+      SOCKET_SERVER: 'http://:{port}',
+    },
+    debug: false,
+  },
+};
+

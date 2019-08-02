@@ -65,15 +65,15 @@ module.exports = (appInfo) => {
     },
   };
   config.assets = {
-    publicPath: '/public',
-    url: 'http://127.0.0.1',
+    publicPath: '/public/',
     devServer: {
-      autoPort: true,
-      command: 'cross-env MOCK=none umi dev --port={port}',
+      command: 'umi dev --port={port}',
+      port: 8001,
       env: {
         APP_ROOT: path.join(__dirname, '../app/web'),
         BROWSER: 'none',
         SOCKET_SERVER: 'http://127.0.0.1:{port}',
+        MOCK: 'none',
       },
       debug: true,
     },
